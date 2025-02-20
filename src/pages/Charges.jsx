@@ -4,9 +4,7 @@ import "../pages/Charges.css";
 import { CircleCheckBig } from "lucide-react";
 import { Link } from "react-router-dom";
 import Cover1 from "../assets/cover1.png";
-import Frame211 from "../assets/Frame211.png";
 import Frame10000039999 from "../assets/Frame10000039999.png";
-import IMG_7701 from "../assets/IMG_7701.png";
 
 const Charges = () => {
   return (

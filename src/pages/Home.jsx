@@ -3,7 +3,7 @@ import cover from "../assets/cover.png";
 import Intersect from "../assets/Intersect.png";
 import "../pages/Home.css";
 import { Link } from "react-router-dom";
-import { Video, Smartphone, FileText, Users, Handshake, Gavel, User, Zap } from "lucide-react";
+import { Gavel, User, Zap } from "lucide-react";
 import Frame1000003979 from "../assets/Frame1000003979.png";
 import Frame206 from "../assets/Frame206.png";
 import Frame205 from "../assets/Frame205.png";
@@ -12,9 +12,7 @@ import Frame203 from "../assets/Frame203.png";
 import Frame201 from "../assets/Frame201.png";
 import Frame202 from "../assets/Frame202.png";
 import Frame200 from "../assets/Frame200.png";
-import Frame211 from "../assets/Frame211.png";
 import Cover1 from "../assets/cover1.png";
-import IMG_7701 from "../assets/IMG_7701.png";
 import { FaVideo, FaPhone, FaFileAlt, FaUsers, FaHandshake, FaGavel } from "react-icons/fa";
 
 const Home = () => {

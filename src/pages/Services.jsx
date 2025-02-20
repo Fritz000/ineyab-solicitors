@@ -2,7 +2,7 @@ import React from 'react'
 import man from "../assets/man-making.png";
 import "../pages/Services.css";
 import { Link } from "react-router-dom";
-import Cover1 from "../assets/Cover1.png";
+import Cover1 from "../assets/cover1.png";
 import Frame1000003979 from "../assets/Frame1000003979.png";
 import Frame206 from "../assets/Frame206.png";
 import Frame205 from "../assets/Frame205.png";

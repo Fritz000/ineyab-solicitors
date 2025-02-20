@@ -3,7 +3,7 @@ import contactcover from "../assets/contactcover.png";
 import { MapPin, Phone, Mail } from "lucide-react";
 import "../pages/Contact.css";
 import { Link } from "react-router-dom";
-import Cover1 from "../assets/Cover1.png";
+import Cover1 from "../assets/cover1.png";
 import Frame211 from "../assets/Frame211.png";
 
 const Contact = () => {
