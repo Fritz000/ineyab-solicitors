@@ -192,7 +192,7 @@ body, html {
   .hero-section106 {
     width: 100%;
     min-width: 100vw;
-    min-height: 70vh;
+    height: 450px;
     background: #4D52C6;
     background-size: contain;
     background-position: center;
