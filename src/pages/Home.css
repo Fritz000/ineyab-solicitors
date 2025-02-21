@@ -61,8 +61,7 @@ body, html {
   
 .services-list {
     display: flex;
-    left: 50%;
-    transform: translate(-70%, -145%);
+    transform: translate(-70%, -135%);
     flex-direction: column;
     gap: 15px;
 }
