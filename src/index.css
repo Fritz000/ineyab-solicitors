@@ -52,11 +52,13 @@ a {
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 30px;
+  text-align: center;
 }
 
 .nav-links ul li.active {
   background-color: #4d52c6;
   color: #fff;
+  width: 125px;
 }
 
 .nav-button {
