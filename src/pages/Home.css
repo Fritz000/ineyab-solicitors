@@ -13,14 +13,14 @@ body, html {
  
   .hero-section {
     width: 100vw;
-    min-height: 100vh ;
+    height: 1176px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     color: white;
     padding: 50px 20px;
@@ -33,7 +33,7 @@ body, html {
     font-weight: 900;
     margin-bottom: 10px;
     line-height: 65px;
-    margin-top: 150px;
+    margin-top: 9rem;
   }
   
   .hero-section p {
@@ -62,7 +62,7 @@ body, html {
 .services-list {
     display: flex;
     left: 50%;
-    transform: translate(-70%, -125%);
+    transform: translate(-70%, -145%);
     flex-direction: column;
     gap: 15px;
 }
@@ -121,7 +121,7 @@ body, html {
   
   .cta-buttons {
     transform: translateX(-20%);
-    transform: translateY(-125%);
+    transform: translateY(-120%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +136,7 @@ body, html {
     width: 180px;
     height: 10vh;
     font-size: 22px;
+    border: none;
     cursor: pointer;
   }
   
@@ -189,12 +190,29 @@ body, html {
     font-weight: bold;
   }
 
+  .hero-section106 {
+    width: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #4D52C6;
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 100px;
+    margin: 0;
+}
+
 .legal-services {
     text-align: center;
     margin-top: 20px;
     padding: 60px 5%;
     width: 100%;
-    background-color: #4d52c6;
   }
   
 .legal-services h2 {
@@ -244,9 +262,25 @@ body, html {
       height: 70px;
       margin-top: 10px;
   }
+
+  .hero-section105 {
+    width: 100vw;
+    min-height: 100vh;
+    background: #F6F6F5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 100px;
+    margin: 0;
+}
+
   
   .who {
-    background-color: #f6f6fc;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -273,7 +307,6 @@ body, html {
     align-items: center;
     padding: 40px 0;
     width: 100%;
-    background-color: #f8f9fc;
   }
   
   .legal-trust-content {
@@ -331,6 +364,7 @@ body, html {
     border-radius: 80px;
     cursor: pointer;
     width: 50%;
+    height: 76.46px;
   }
   
   .secondary-btn {
@@ -342,6 +376,7 @@ body, html {
     border-radius: 80px;
     cursor: pointer;
     width: 50%;
+    height: 76.46px;
   }
 
   .service00{
@@ -801,4 +836,49 @@ textarea {
   font-weight: 400;
   line-height: 24px;
   font-family: 'open sans', sans-serif;
+}
+
+.banner {
+  width: calc(100% - 90px);
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.banner-content {
+  z-index: 2;
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.banner h2 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #D7D7D7;
+}
+
+.blot105 {
+  background-color: #5a3cf9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18.06px;
+  width: 133.27px;
+  height: 50.46px;
+  border-radius: 58.21px;
+  text-align: center;
+  margin: 10px 0;
+  display: inline-block;
 }

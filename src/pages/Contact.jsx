@@ -4,20 +4,24 @@ import { MapPin, Phone, Mail } from "lucide-react";
 import "../pages/Contact.css";
 import { Link } from "react-router-dom";
 import Cover1 from "../assets/cover1.png";
-import Frame211 from "../assets/Frame211.png";
+import IMG_7701 from "../assets/IMG_7701.png";
 
 const Contact = () => {
   return (
-    <div className='first'>
-    <div
-      className="contact20-container"
-      style={{
-        backgroundImage: `url(${contactcover})`,
-      }}
-    >
-      </div>
+    <div className='first11'>
+      <div
+            className="contact20-container"
+          
+          >
+            <div className="contact-container">
+              <h1>WE WILL BE RIGHT HERE WHEN YOU REACH OUT</h1>
+              <p>
+                If you have legal concerns or issues, we're here to assist. Our experts are ready to help with your case.
+              </p>
+            </div>
+          </div>
 
-      <section className="contact-container">
+      <section className="contact-container100">
       <div className="contact-card">
         <div className="icon-title">
         <MapPin size={40} color="#4d52c6" />
@@ -43,6 +47,7 @@ const Contact = () => {
         <h3>Email</h3>
         </div>
         <p className='email'>info@ineyabsolicitors.com</p>
+        <p className='email1'>ineyabsolicitors@yahoo.com</p>
       </div>
     </section>
     
@@ -91,50 +96,57 @@ const Contact = () => {
               </div>
             </div>
           
-            <div className="banner" style={{ backgroundImage: `url(${Frame211})` }}></div>
+          <div className="banner" style={{ backgroundImage: `url(${IMG_7701})` }}>
+              <div className="banner-content">
+                <h2>Do you have any legal problems?</h2>
+                <p>Ineyab Solicitors - We are here to help.</p>
+                <button className="blot105"><Link to ="/Contact">Talk to us</Link></button>
+              </div>
+            </div>
           
             <footer className="footer">
-                <div className="container120">
-                  <div className="row">
-                    <div className="footer-col">
-                      <h4>Quick links</h4>
-                      <ul>
-                        <li><Link to ="/">Home</Link></li>
-                        <li><a><Link to="/OurCharges">Our Charges</Link></a></li>
-                        <li><a href="#"><Link to ="/Contact">Contact us</Link></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer-col1">
-                      <h4>Services & Practices</h4>
-                      <ul>
-                        <li><a><Link to ="/Services">Civil litigation</Link></a></li>
-                        <li><a><Link to ="/Services">Criminal law</Link></a></li>
-                        <li><a><Link to ="/Services">Housing, Landlord  & Tenant Matters</Link></a></li>
-                        <li><a><Link to ="/Services">Family Law & Divorce</Link></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer-col2">
-                    <h4>&nbsp;</h4>
-                      <ul>
-                        <li><a><Link to ="/Services">Employment Law</Link></a></li>
-                        <li><a><Link to ="/Services">Immigration, Nationality & Asylum Law</Link></a></li>
-                        <li><a><Link to ="/Services">Housing, Landlord & Tenant Matters</Link></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer-col3">
-                      <h4>Contact</h4>
-                        <ul>
-                        <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
-                          <li><a href="info@inyeabsolicitors.com">info@inyeabsolicitors.com</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <hr className='hr'/>
+      <div className="container120">
+        <div className="row">
+          <div className="footer-col">
+            <h4>Quick links</h4>
+            <ul>
+              <li><Link to ="/">Home</Link></li>
+              <li><a><Link to="/OurCharges">Our Charges</Link></a></li>
+              <li><a href="#"><Link to ="/Contact">Contact us</Link></a></li>
+            </ul>
+          </div>
+          <div className="footer-col1">
+            <h4>Services & Practices</h4>
+            <ul>
+              <li><a><Link to ="/Services">Civil litigation</Link></a></li>
+              <li><a><Link to ="/Services">Criminal law</Link></a></li>
+              <li><a><Link to ="/Services">Housing, Landlord  & Tenant Matters</Link></a></li>
+              <li><a><Link to ="/Services">Family Law & Divorce</Link></a></li>
+            </ul>
+          </div>
+          <div className="footer-col2">
+          <h4>&nbsp;</h4>
+            <ul>
+              <li><a><Link to ="/Services">Employment Law</Link></a></li>
+              <li><a><Link to ="/Services">Immigration, Nationality & Asylum Law</Link></a></li>
+              <li><a><Link to ="/Services">Housing, Landlord & Tenant Matters</Link></a></li>
+            </ul>
+          </div>
+          <div className="footer-col3">
+            <h4>Contact</h4>
+              <ul>
+              <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+                <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
+                <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr className='hr'/>
+
           
-                    
-                  </div>
-                  <p className='copy'>&copy; 2024 Ineyab Solicitors. All rights reserved.</p>
-              </footer>
+        </div>
+        <p className='copy'>&copy; 2025 Ineyab Solicitors. All rights reserved.</p>
+    </footer>
     </div>
   )
 }

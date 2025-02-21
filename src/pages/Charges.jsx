@@ -5,6 +5,7 @@ import { CircleCheckBig } from "lucide-react";
 import { Link } from "react-router-dom";
 import Cover1 from "../assets/cover1.png";
 import Frame10000039999 from "../assets/Frame10000039999.png";
+import IMG_7701 from "../assets/IMG_7701.png";
 
 const Charges = () => {
   return (
@@ -289,6 +290,14 @@ const Charges = () => {
                 </form>
               </div>
             </div>
+
+            <div className="banner" style={{ backgroundImage: `url(${IMG_7701})` }}>
+                <div className="banner-content">
+                  <h2>Do you have any legal problems?</h2>
+                  <p>Ineyab Solicitors - We are here to help.</p>
+                  <button className="blot105"><Link to ="/Contact">Talk to us</Link></button>
+                </div>
+              </div>
           
           
             <footer className="footer">

@@ -3,7 +3,6 @@ import man from "../assets/man-making.png";
 import "../pages/Services.css";
 import { Link } from "react-router-dom";
 import Cover1 from "../assets/cover1.png";
-import Frame1000003979 from "../assets/Frame1000003979.png";
 import Frame206 from "../assets/Frame206.png";
 import Frame205 from "../assets/Frame205.png";
 import Frame204 from "../assets/Frame204.png";
@@ -11,7 +10,7 @@ import Frame203 from "../assets/Frame203.png";
 import Frame201 from "../assets/Frame201.png";
 import Frame202 from "../assets/Frame202.png";
 import Frame200 from "../assets/Frame200.png";
-import Frame211 from "../assets/Frame211.png";
+import IMG_7701 from "../assets/IMG_7701.png";
 
 const Services = () => {
   return (
@@ -172,50 +171,57 @@ const Services = () => {
               </div>
             </div>
           
-            <div className="banner" style={{ backgroundImage: `url(${Frame211})` }}></div>
+          <div className="banner" style={{ backgroundImage: `url(${IMG_7701})` }}>
+              <div className="banner-content">
+                <h2>Do you have any legal problems?</h2>
+                <p>Ineyab Solicitors - We are here to help.</p>
+                <button className="blot105"><Link to ="/Contact">Talk to us</Link></button>
+              </div>
+            </div>
           
             <footer className="footer">
-                <div className="container120">
-                  <div className="row">
-                    <div className="footer-col">
-                      <h4>Quick links</h4>
-                      <ul>
-                        <li><Link to ="/">Home</Link></li>
-                        <li><a><Link to="/OurCharges">Our Charges</Link></a></li>
-                        <li><a href="#"><Link to ="/Contact">Contact us</Link></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer-col1">
-                      <h4>Services & Practices</h4>
-                      <ul>
-                        <li><a><Link to ="/Services">Civil litigation</Link></a></li>
-                        <li><a><Link to ="/Services">Criminal law</Link></a></li>
-                        <li><a><Link to ="/Services">Housing, Landlord  & Tenant Matters</Link></a></li>
-                        <li><a><Link to ="/Services">Family Law & Divorce</Link></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer-col2">
-                    <h4>&nbsp;</h4>
-                      <ul>
-                        <li><a><Link to ="/Services">Employment Law</Link></a></li>
-                        <li><a><Link to ="/Services">Immigration, Nationality & Asylum Law</Link></a></li>
-                        <li><a><Link to ="/Services">Housing, Landlord & Tenant Matters</Link></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer-col3">
-                      <h4>Contact</h4>
-                        <ul>
-                        <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
-                          <li><a href="info@inyeabsolicitors.com">info@inyeabsolicitors.com</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <hr className='hr'/>
+      <div className="container120">
+        <div className="row">
+          <div className="footer-col">
+            <h4>Quick links</h4>
+            <ul>
+              <li><Link to ="/">Home</Link></li>
+              <li><a><Link to="/OurCharges">Our Charges</Link></a></li>
+              <li><a href="#"><Link to ="/Contact">Contact us</Link></a></li>
+            </ul>
+          </div>
+          <div className="footer-col1">
+            <h4>Services & Practices</h4>
+            <ul>
+              <li><a><Link to ="/Services">Civil litigation</Link></a></li>
+              <li><a><Link to ="/Services">Criminal law</Link></a></li>
+              <li><a><Link to ="/Services">Housing, Landlord  & Tenant Matters</Link></a></li>
+              <li><a><Link to ="/Services">Family Law & Divorce</Link></a></li>
+            </ul>
+          </div>
+          <div className="footer-col2">
+          <h4>&nbsp;</h4>
+            <ul>
+              <li><a><Link to ="/Services">Employment Law</Link></a></li>
+              <li><a><Link to ="/Services">Immigration, Nationality & Asylum Law</Link></a></li>
+              <li><a><Link to ="/Services">Housing, Landlord & Tenant Matters</Link></a></li>
+            </ul>
+          </div>
+          <div className="footer-col3">
+            <h4>Contact</h4>
+              <ul>
+              <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+                <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
+                <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr className='hr'/>
+
           
-                    
-                  </div>
-                  <p className='copy'>&copy; 2024 Ineyab Solicitors. All rights reserved.</p>
-              </footer>
+        </div>
+        <p className='copy'>&copy; 2025 Ineyab Solicitors. All rights reserved.</p>
+    </footer>
     </div>
   )
 }

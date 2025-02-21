@@ -13,7 +13,10 @@ import Frame201 from "../assets/Frame201.png";
 import Frame202 from "../assets/Frame202.png";
 import Frame200 from "../assets/Frame200.png";
 import Cover1 from "../assets/cover1.png";
+import Frame1000003982 from "../assets/Frame1000003982.png";
 import { FaVideo, FaPhone, FaFileAlt, FaUsers, FaHandshake, FaGavel } from "react-icons/fa";
+import IMG_7701 from "../assets/IMG_7701.png";
+import Frame1000003966 from "../assets/Frame1000003966.png";
 
 const Home = () => {
   return (
@@ -56,8 +59,7 @@ const Home = () => {
       </div>
       </section>
 
-      
-
+  
       {/* Stats Section */}
       <section className="stats-section">
         <div className="stat-item">
@@ -82,7 +84,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+      <div className="hero-section106" style={{
+      backgroundImage: `url(${Frame1000003966})`,
+    }}>
       <div className="legal-services">
       <h2>The Legal Service You Truly Deserve</h2>
       
@@ -112,6 +116,10 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </div>
+    <div className="hero-section105" style={{
+      backgroundImage: `url(${Frame1000003982})`,
+    }}>
     <div className="who">
       <h1>Who are we?</h1>
       <p>We have developed innovative and creative ways to resolve our client's legal issues.</p>
@@ -134,6 +142,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     <div className="service00">
     <h3 className='OurServices'>Our services and practices majorly cut across <br/> most relevant legal services</h3>
@@ -274,6 +283,14 @@ const Home = () => {
           Submit
         </button>
       </form>
+    </div>
+  </div>
+
+  <div className="banner" style={{ backgroundImage: `url(${IMG_7701})` }}>
+    <div className="banner-content">
+      <h2>Do you have any legal problems?</h2>
+      <p>Ineyab Solicitors - We are here to help.</p>
+      <button className="blot105"><Link to ="/Contact">Talk to us</Link></button>
     </div>
   </div>
 
