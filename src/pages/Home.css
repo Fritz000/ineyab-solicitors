@@ -331,15 +331,14 @@ body, html {
   .trust-text {
     flex: 1;
     text-align: left;
-    max-width: 500px;
+    max-width: 593px;
   }
   
   .trust-text h2 {
-    font-size: 40px;
+    font-size: 48px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    font-weight: bold;
-    text-align: justify;
+    font-weight: 700;
     color: #252b42;
     font-family: 'Open sans', sans-serif;
     margin-bottom: 15px;
