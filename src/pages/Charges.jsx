@@ -17,7 +17,7 @@ const Charges = () => {
       }}
     >
       <div className="charges-content">
-        <h1>AFFORDABLE LEGAL SOLUTIONS, TAILORED FOR YOU</h1>
+        <h1>AFFORDABLE LEGAL SOLUTIONS, TAILORED FOR YOU.</h1>
         <p>
           Legal matters can be complex, but understanding the costs shouldn't be. We offer clean explanations of our charges, so you can make informed decisions without surprises.
         </p>

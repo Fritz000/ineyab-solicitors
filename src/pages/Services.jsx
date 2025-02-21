@@ -22,7 +22,7 @@ const Services = () => {
       }}
     >
       <div className="services120-content">
-        <h1>WE'RE ALWAYS HERE TO HELP YOU</h1>
+        <h1>WE'RE ALWAYS HERE TO HELP YOU.</h1>
         <p>
           Explore our comprehensive range of legal services tailored to meet your needs<br/>
           as you empower yourself with our professional legal services designed to<br/>

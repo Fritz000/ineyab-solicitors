@@ -14,7 +14,7 @@ const Contact = () => {
           
           >
             <div className="contact-container">
-              <h1>WE WILL BE RIGHT HERE WHEN YOU REACH OUT</h1>
+              <h1>WE WILL BE RIGHT HERE WHEN YOU REACH OUT.</h1>
               <p>
                 If you have legal concerns or issues, we're here to assist. Our experts are ready to help with your case.
               </p>
