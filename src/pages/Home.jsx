@@ -135,10 +135,10 @@ const Home = () => {
           <img src={Frame1000003979} alt="Law Books and Justice" />
         </div>
         <div className="trust-text">
-          <h2>Ineyab solicitors is one  of the most trusted in the legal field</h2>
+          <h2>Ineyab solicitors is trusted in the legal field</h2>
           <p>
-            Ineyab Solicitors is a leading law firm in the UK based in Brockley,
-            South East London. We provide a world leading legal advice and representation at affordable rates. We offer a friendly, reliable and professional service which is  tailored to meeting the needs of our clients. We have developed innovative and creative ways to resolve our client's legal issues.
+            Ineyab Solicitors is a leading law firm in the UK based,
+            South East London. We provide legal advice and representation at affordable rates. We offer a friendly, reliable and professional service which is  tailored to meeting the needs of our clients. We have developed innovative and creative ways to resolve our client's legal issues.
           </p>
           <div className="trust-buttons">
             <button className="primary-btn"><Link to ="/Contact">Talk to Us</Link></button>
@@ -149,7 +149,7 @@ const Home = () => {
     </div>
     </div>
     <div className="service00">
-    <h3 className='OurServices'>Our services and practices majorly cut across <br/> most relevant legal services</h3>
+    <h3 className='OurServices'>Our services and practices majorly cut across <br/> relevant legal services</h3>
     <p className='aim'>Our aim is to serve the best interest of our clients</p>
       <div className="trust-buttons1">
             <button className="primary-btn1"><Link to ="/Contact">Talk to Us</Link></button>
