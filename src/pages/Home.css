@@ -120,7 +120,7 @@ body, html {
   
   .cta-buttons {
     transform: translateX(-20%);
-    transform: translateY(-170%);
+    transform: translateY(-200%);
     display: flex;
     justify-content: center;
     align-items: center;
