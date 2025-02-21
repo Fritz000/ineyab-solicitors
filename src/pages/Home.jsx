@@ -14,7 +14,8 @@ import Frame202 from "../assets/Frame202.png";
 import Frame200 from "../assets/Frame200.png";
 import Cover1 from "../assets/cover1.png";
 import Frame1000003982 from "../assets/Frame1000003982.png";
-import { FaVideo, FaPhone, FaFileAlt, FaUsers, FaHandshake, FaGavel } from "react-icons/fa";
+import { FaVideo, FaPhone, FaFileAlt, FaUsers, FaHandshake } from "react-icons/fa";
+import { MdGavel } from "react-icons/md";
 import IMG_7701 from "../assets/IMG_7701.png";
 import Frame1000003966 from "../assets/Frame1000003966.png";
 import Judge from "../assets/Judge.png";
@@ -80,7 +81,7 @@ const Home = () => {
           </div>
         </div>
         <div className="stat-item">
-          <FaGavel className="stat-icon" />
+          <MdGavel className="stat-icon" />
           <div className="stat-text">
           <h3>High</h3>
           <p>Successful Cases</p>
