@@ -65,7 +65,7 @@ const Home = () => {
         <div className="stat-item">
           <FaUsers className="stat-icon" />
           <div className="stat-text">
-          <h3>1700+</h3>
+          <h3>Huge</h3>
           <p>Trusted Clients</p>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Home = () => {
         <div className="stat-item">
           <FaGavel className="stat-icon" />
           <div className="stat-text">
-          <h3>87%</h3>
+          <h3>High</h3>
           <p>Successful Cases</p>
           </div>
         </div>
