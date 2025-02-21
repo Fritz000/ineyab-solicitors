@@ -176,7 +176,7 @@ body, html {
   
   .stat-icon {
     font-size: 5rem;
-    color: #4a90e2;
+    color: #4d52c6;
     padding: 2px;
   }
   
@@ -245,8 +245,8 @@ body, html {
     }
     
     .user2 {
-      width: 100px; 
-      height: 100px;
+      width: 121px; 
+      height: 121px;
       border-radius: 50%;
       margin: 0 auto 15px;
       background: white;
@@ -260,8 +260,8 @@ body, html {
     
   .service-icon {
       color: #1d4ed8;
-      width: 100px;
-      height: 70px;
+      width: 96px;
+      height: 96px;
       margin-top: 10px;
   }
 

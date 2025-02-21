@@ -17,6 +17,9 @@ import Frame1000003982 from "../assets/Frame1000003982.png";
 import { FaVideo, FaPhone, FaFileAlt, FaUsers, FaHandshake, FaGavel } from "react-icons/fa";
 import IMG_7701 from "../assets/IMG_7701.png";
 import Frame1000003966 from "../assets/Frame1000003966.png";
+import Judge from "../assets/Judge.png";
+import Conflict from "../assets/Conflict.png";
+import Law from "../assets/Law.png";
 
 const Home = () => {
   return (
@@ -94,7 +97,7 @@ const Home = () => {
         {/* Service 1 */}
         <div className="service-card">
           <div className="user2">
-          <Zap className="service-icon" />
+          <img src={Conflict} className="service-icon" alt="" />
           </div>
           <h3>Experience our fast and smooth <br/> legal services</h3>
         </div>
@@ -102,7 +105,7 @@ const Home = () => {
         {/* Service 2 */}
         <div className="service-card">
           <div className="user2">
-          <Gavel className="service-icon" />
+          <img src={Law} className="service-icon" alt="" />
           </div>
           <h3>Seek, Reach and get timely justice <br/> with us</h3>
         </div>
@@ -110,7 +113,7 @@ const Home = () => {
         {/* Service 3 */}
         <div className="service-card">
           <div className="user2">
-            <User className="service-icon" />
+          <img src={Judge} className="service-icon" alt="" />
           </div>
           <h3>Talk, Confide and get legal <br/> solutions from Our professionals</h3>
         </div>
