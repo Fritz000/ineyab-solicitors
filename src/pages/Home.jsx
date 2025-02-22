@@ -69,7 +69,7 @@ const Home = () => {
         <div className="stat-item">
           <FaUsers className="stat-icon" />
           <div className="stat-text">
-          <h3>Huge</h3>
+          <h3>HUGE</h3>
           <p>Trusted Clients</p>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Home = () => {
         <div className="stat-item">
           <MdGavel className="stat-icon" />
           <div className="stat-text">
-          <h3>High</h3>
+          <h3>HIGH</h3>
           <p>Successful Cases</p>
           </div>
         </div>
