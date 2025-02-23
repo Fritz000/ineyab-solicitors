@@ -904,7 +904,7 @@ textarea {
   
   .hero-section {
     width: 100%;
-    height: 980px;
+    height: 950px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -920,7 +920,7 @@ textarea {
   
     .hero-section h1 {
       font-weight: bold;
-      font-size: 15.5px;
+      font-size: 16px;
       font-weight: 800;
       margin-bottom: 10px;
       line-height: 40px;
@@ -928,7 +928,7 @@ textarea {
     }
     
     .hero-section p {
-      font-size: 14px;
+      font-size: 14.5px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 30px;
@@ -939,10 +939,10 @@ textarea {
     }
   
   .hero-section img{
-      width: 300px;
-      height: 450px;
+      width: 380px;
+      height: 380px;
       margin-top: 35px;
-      margin-left: 69px;
+      margin-left: 1px;
       margin-bottom: 20px;
       border-radius: 50%;
       border: 5px solid white;
@@ -952,7 +952,7 @@ textarea {
     
   .services-list {
       display: flex;
-      transform: translate(-37%, -80%);
+      transform: translate(-27%, -110%);
       flex-direction: column;
       gap: 15px;
   }
@@ -965,8 +965,8 @@ textarea {
     color: black;
     padding: 15px 20px;
     border-radius: 10px;
-    width: 210px;
-    height: 17vh;
+    width: 240px;
+    height: 12.5vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
@@ -978,7 +978,7 @@ textarea {
   }
   
   .service-item h3 {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     color: #425066;
   }
@@ -1011,7 +1011,7 @@ textarea {
     
     .cta-buttons {
       transform: translateX(-10%);
-      transform: translateY(-170%);
+      transform: translateY(-210%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1023,9 +1023,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 120.76px;
-      height: 71.38px;
-      font-size: 15px;
+      width: 110.76px;
+      height: 60.38px;
+      font-size: 13px;
       border: none;
       cursor: pointer;
     }
@@ -1035,22 +1035,22 @@ textarea {
       color: white;
       border: 2px solid white;
       border-radius: 50px;
-      width: 140.76px;
-      height: 71.38px;
-      font-size: 15px;
+      width: 130.76px;
+      height: 60.38px;
+      font-size: 13px;
       cursor: pointer;
     }
     
     .stats-section {
-      width: 95%; 
-      max-width: 900px;
+      width: 97%; 
+      max-width: 950px;
       height: 149.36px;
       margin: 0 auto;
       display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
-      padding: 20px;
+      padding: 10px;
       background: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
@@ -1073,7 +1073,7 @@ textarea {
     }
     
     .stat-item h3 {
-      font-size: 18px;
+      font-size: 20px;
       color: #000;
       margin-top: 20px;
       margin-bottom: 10px;
@@ -1082,7 +1082,7 @@ textarea {
     }
     
   .stat-item p {
-      font-size: 13px;
+      font-size: 14px;
       color: #737373;
       font-weight: bold;
       text-align: center;
@@ -1136,7 +1136,7 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -70.5px;
+      margin-left: -65.5px;
     }
     
     .service-card {
@@ -1280,9 +1280,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 120.76px;
-      height: 71.38px;
-      font-size: 15px;
+      width: 110.76px;
+      height: 60.38px;
+      font-size: 13px;
       border: none;
       cursor: pointer;
     }
@@ -1292,9 +1292,9 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 140.76px;
-      height: 71.38px;
-      font-size: 15px;
+      width: 130.76px;
+      height: 60.38px;
+      font-size: 13px;
       cursor: pointer;
     }
   
@@ -1304,17 +1304,18 @@ textarea {
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
+      margin-top: -50px;
     }
     
     .OurServices{
       color: #4d52c6;
-      font-size: 16px;
+      font-size: 17px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
       word-wrap: break-word;
       overflow-wrap: break-word;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     
     .aim{
@@ -1335,9 +1336,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 120.76px;
-      height: 71.38px;
-      font-size: 15px;
+      width: 110.76px;
+      height: 60.38px;
+      font-size: 13px;
       border: none;
       cursor: pointer;
     }
@@ -1347,9 +1348,9 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 140.76px;
-      height: 71.38px;
-      font-size: 15px;
+      width: 130.76px;
+      height: 60.38px;
+      font-size: 13px;
       cursor: pointer;
     }
     
@@ -1357,7 +1358,7 @@ textarea {
       display: block;
       gap: 20px;
       width: 100%;
-      padding: 0 50px;
+      padding: 0 20px;
       background-color: #F6F6FC; 
   }
   
@@ -1434,23 +1435,21 @@ textarea {
 }
 
 .hero-content101 {
-    z-index: 2;
-    max-width: 1000px;
     width: 100%;
     color: white;
-    margin: 50px auto 40px auto;
-    text-align: center;
+    margin: 30px auto 40px auto;
+    text-align: left;
+    justify-content: justify;
     display: flex;
     flex-direction: column;
-    margin-left: -40px;
-    align-items: flex-start;
+    margin-left: -60px;
 }
 
 .hero-content101 h1 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
@@ -1661,20 +1660,19 @@ textarea {
   }
   
   .banner {
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    min-height: 200px;
+    min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    z-index: 2;
     text-align: left;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     width: 100%;
   }
   
@@ -1696,9 +1694,9 @@ textarea {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16.06px;
-    width: 120.76px;
-    height: 50.38px;
+    font-size: 13.06px;
+    width: 110.76px;
+    height: 40.38px;
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
