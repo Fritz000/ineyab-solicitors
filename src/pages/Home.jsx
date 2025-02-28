@@ -67,7 +67,7 @@ const Home = () => {
       {/* Stats Section */}
       <section className="stats-section">
         <div className="stat-item">
-          <div className="user101">
+          <div className='user101'>
           <FaUsers className="stat-icon" />
           </div>
           <div className="stat-text">
@@ -75,8 +75,9 @@ const Home = () => {
           <p>Trusted Clients</p>
           </div>
         </div>
+
         <div className="stat-item">
-        <div className="user101">
+          <div className='user101'>
           <FaHandshake className="stat-icon" />
           </div>
           <div className="stat-text">
@@ -84,8 +85,9 @@ const Home = () => {
           <p>Compensation Cases</p>
           </div>
         </div>
+
         <div className="stat-item">
-        <div className="user101">
+          <div className='user101'>
           <MdGavel className="stat-icon" />
           </div>
           <div className="stat-text">

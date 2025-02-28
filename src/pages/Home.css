@@ -169,17 +169,40 @@ body, html {
   }
   
   .stat-item {
+    flex: 1;
     display: flex;
-    align-items: center;
-    gap: 15px;
-  }
+    justify-content: center;
+}
+
+
+.stat-item:first-child {
+    justify-content: flex-start;
+}
+
+
+.stat-item:nth-child(2) {
+    justify-content: center;
+}
+
+
+.stat-item:last-child {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
   
   .stat-icon {
     font-size: 5rem;
     color: #4d52c6;
     padding: 2px;
-    width: 92.77px;
-    height: 60.83px;
+    width: 77.09px;
+    height: 77.09px;
+  }
+
+  .stat-text{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    
   }
   
   .stat-item h3 {
@@ -3246,34 +3269,54 @@ textarea {
       font-size: 12px;
       cursor: pointer;
     }
-    
+
     .stats-section {
-      width: 97%; 
-      max-width: 389px;
-      height: 65.36px;
+      width: 96%; 
+      max-width: 1044px;
+      height: 47.08px;
       margin: 0 auto;
       display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
-      padding: 30px;
+      padding: 5px;
       background: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
     
     .stat-item {
+      flex: 1;
       display: flex;
-      align-items: center;
-      gap: 0px;
-      padding-left: 5px;
+      justify-content: center;
+  }
+  
+  .stat-item:first-child {
+      justify-content: flex-start;
+      margin-left: 40px;
+  }
+  
+  .stat-item:nth-child(2) {
+      justify-content: center;
+  }
+  
+  .stat-item:last-child {
+      justify-content: flex-end;
+      padding-right: 5px;
   }
     
     .stat-icon {
-      font-size: 5rem;
       color: #4d52c6;
       padding: 1px;
-      width: 26.78px;
+      margin-right: -20px;
+      width: 30.48px;
       height: 19.47px;
+    }
+  
+    .stat-text{
+      text-align: center;
+      margin-top: -25px;
+      margin-left: 25px;
+      
     }
     
     .stat-item h3 {
@@ -3281,13 +3324,14 @@ textarea {
       color: #000;
       font-weight: bold;
       text-align: left;
+
     }
     
   .stat-item p {
-      font-size: 6.6px;
+      font-size: 6.66px;
       color: #737373;
       font-weight: bold;
-      text-align: left;
+      margin-top: -10px;
     }
   
     .hero-section106 {
