@@ -311,7 +311,7 @@ const Home = () => {
             <h4>Quick links</h4>
             <ul>
               <li><Link to ="/">Home</Link></li>
-              <li><a><Link to="/OurCharges">Our Charges</Link></a></li>
+              <li><a><Link to="/Charges">Our Charges</Link></a></li>
               <li><a href="#"><Link to ="/Contact">Contact us</Link></a></li>
             </ul>
           </div>
@@ -336,8 +336,8 @@ const Home = () => {
             <h4>Contact</h4>
               <ul>
               <li><a href="tel:02086946419">02086946419, 07908523354</a></li>
-                <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
-                <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
+              <li><a href="mailto:info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
+                <li><a href="mailto:ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
               </ul>
             </div>
           </div>
