@@ -2238,7 +2238,7 @@ textarea {
   .hero-section101 {
     width: 100vw;
     max-width: 430px;
-    min-height: 100vh;
+    min-height: 10vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -2284,7 +2284,7 @@ textarea {
     padding: 30px;
     border-radius: 5px;
     max-width: 1200px !important;
-    width: 90%;
+    width: 98%;
     text-align: left;
     z-index: 2;
     margin: 30px auto;
