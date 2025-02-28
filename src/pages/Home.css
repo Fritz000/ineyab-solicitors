@@ -3936,7 +3936,7 @@ textarea {
     
     .stats-section {
       width: 97%; 
-      max-width: 350px;
+      max-width: 380px;
       height: 65.36px;
       margin: 0 auto;
       display: flex;
@@ -3959,8 +3959,8 @@ textarea {
       font-size: 5rem;
       color: #4d52c6;
       padding: 1px;
-      width: 36.78px;
-      height: 29.47px;
+      width: 26.78px;
+      height: 19.47px;
     }
     
     .stat-item h3 {
