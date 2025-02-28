@@ -1707,6 +1707,8 @@ textarea {
 
 
 @media (max-width: 414px){
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
   * {
     box-sizing: border-box;
   }
@@ -1726,7 +1728,7 @@ textarea {
   
   .hero-section {
     width: 100%;
-    height: 950px;
+    height: 550px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1736,13 +1738,13 @@ textarea {
     justify-content: flex-start;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 100px 20px;
     margin: 0 auto;
   }
   
     .hero-section h1 {
       font-weight: bold;
-      font-size: 16px;
+      font-size: 28px;
       font-weight: 800;
       margin-bottom: 10px;
       line-height: 40px;
@@ -1750,7 +1752,7 @@ textarea {
     }
     
     .hero-section p {
-      font-size: 14.5px;
+      font-size: 14px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 30px;
@@ -1761,6 +1763,7 @@ textarea {
     }
   
   .hero-section img{
+    display: none;
       width: 380px;
       height: 380px;
       margin-top: 35px;
@@ -1773,7 +1776,7 @@ textarea {
   }
     
   .services-list {
-      display: flex;
+      display: none;
       transform: translate(-27%, -110%);
       flex-direction: column;
       gap: 15px;
@@ -1833,7 +1836,7 @@ textarea {
     
     .cta-buttons {
       transform: translateX(-10%);
-      transform: translateY(-210%);
+      transform: translateY(-20%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1845,9 +1848,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 110.76px;
-      height: 60.38px;
-      font-size: 13px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
       border: none;
       cursor: pointer;
     }
@@ -1857,70 +1860,59 @@ textarea {
       color: white;
       border: 2px solid white;
       border-radius: 50px;
-      width: 130.76px;
-      height: 60.38px;
-      font-size: 13px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
       cursor: pointer;
     }
     
     .stats-section {
       width: 97%; 
-      max-width: 950px;
-      height: 149.36px;
+      max-width: 350px;
+      height: 65.36px;
       margin: 0 auto;
       display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
-      padding: 10px;
+      padding: 40px;
       background: white;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
     
     .stat-item {
-      display: block;
-      text-align: center;
-      gap: 15px;
-    }
-
-    .user101{
-      display: block;
-      text-align: center;
-      gap: 30px;
-    }
+      display: flex;
+      align-items: center;
+      gap: 0px;
+      padding-left: 5px;
+  }
     
     .stat-icon {
-      display: block;  
       font-size: 5rem;
       color: #4d52c6;
-      padding: 2px;
-      width: 110.77px; 
-      height: 40.83px;
-      text-align: center;
-      margin-bottom: 10px;
+      padding: 1px;
+      width: 36.78px;
+      height: 29.47px;
     }
     
     .stat-item h3 {
-      font-size: 20px;
+      font-size: 11.41px;
       color: #000;
-      margin-top: 20px;
-      margin-bottom: 10px;
       font-weight: bold;
-      text-align: center;
+      text-align: left;
     }
     
   .stat-item p {
-      font-size: 14px;
+      font-size: 6.6px;
       color: #737373;
       font-weight: bold;
-      text-align: center;
-      width: 100px;
+      text-align: left;
     }
   
     .hero-section106 {
       width: 100%;
       min-width: 100vw;
-      height: 700px;
+      height: 903px;
       background: #4D52C6;
       background-size: contain;
       background-position: center;
@@ -1928,31 +1920,31 @@ textarea {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       color: white;
-      padding: 50px 100px;
+      padding: 50px 20px;
       margin: 0;
       box-sizing: border-box;
-    }
-    
+  }
+  
     .legal-services {
       width: 100%;
-      max-width: 100%;
+      max-width: 375px;
       margin: 0 auto;
       text-align: center;
-    }
-    
-    .legal-services h2 {
-      font-size: 18px;
+      padding-left: 20px;
+  }
+  
+  .legal-services h2 {
+      font-size: 22px;
       width: 100%;
       display: block;
       text-align: center;
       white-space: normal;
       word-wrap: break-word;
       line-height: 1.3;
-      max-width: 375px;
       margin-bottom: 20px;
-    }
+  }
         
     .services-container {
       display: block;
@@ -1964,24 +1956,25 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -65.5px;
+      margin-left: -10.5px;
     }
     
     .service-card {
-      width: 300px !important;
+      width: 354px !important;
       flex-grow: 1;
       max-width: 400px;
+      margin-bottom: 30px;
     }
     
     .service-card h3 {
       font-weight: 400;
-      font-size: 14px;
+      font-size: 16px;
       word-wrap: break-word;
     }
     
     .user2 {
-        width: 70px; 
-        height: 70px;
+        width: 103.45px; 
+        height: 103.45px;
         border-radius: 50%;
         margin: 0 auto 15px;
         background: white;
@@ -1995,8 +1988,8 @@ textarea {
       
     .service-icon {
         color: #1d4ed8;
-        width: 60px;
-        height: 60px;
+        width: 82.07px;
+        height: 82.07px;
         margin-top: 10px;
     }
   
@@ -2012,7 +2005,7 @@ textarea {
       justify-content: center;
       align-items: center;
       color: white;
-      padding: 50px 100px;
+      padding: 20px 100px;
       margin: 0;
       text-align: center;
   }
@@ -2027,17 +2020,22 @@ textarea {
   }
 
   .who h1{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
     color: #4d52c6;
-    margin-top: 0px;
+    margin-top: -100px;
 }
 
-.who p{
-    font-size: 15px;
-    margin-top: 10px;
-    color: #939393;
+.who p {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  color: #939393;
+  margin-top: -10px;
+  text-align: center;
+  width: 343px;
 }
+
   
   .legal-trust-container {
       display: flex; 
@@ -2058,15 +2056,16 @@ textarea {
   }
   
   .trust-text {
-      text-align: center;
+      text-align: left;
       max-width: 700px;
   }
 
   .trust-text h2 {
-    font-size: 20px;
+    font-size: 24px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
+    padding-left: 10px;
     color: #252b42;
     font-family: 'Open sans', sans-serif;
     margin-bottom: 15px;
@@ -2078,6 +2077,7 @@ textarea {
     line-height: 30px;
     margin-bottom: 20px;
     text-align: left;
+    padding-left: 10px;
     font-family: 'Open sans', sans-serif;
     font-weight: 600;
   }
@@ -2093,13 +2093,13 @@ textarea {
     justify-content: center; 
     align-items: center; 
     width: 100%;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .trust-image img {
     width: 100%;
-    max-width: 1100px;
-    height: auto;
+    width: 346px;
+    height: 259.23px;
     border-radius: 8px;
     display: block;
 }
@@ -2108,9 +2108,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 110.76px;
-      height: 60.38px;
-      font-size: 13px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
       border: none;
       cursor: pointer;
     }
@@ -2120,15 +2120,15 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 130.76px;
-      height: 60.38px;
-      font-size: 13px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
       cursor: pointer;
     }
   
     .service00{
       display: block;
-      padding: 40px 0;
+      padding: 5px 0;
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
@@ -2148,7 +2148,7 @@ textarea {
     
     .aim{
       color: #5c5c5c;
-      margin-top: 10px;
+      margin-top: 12px;
       font-size: 16px;
       margin-bottom: 20px;
     }
@@ -2158,15 +2158,16 @@ textarea {
       align-items: center;
       justify-content: center;
       gap: 15px;
+      margin-bottom: 30px;
     }
     
     .primary-btn1 {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 110.76px;
-      height: 60.38px;
-      font-size: 13px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
       border: none;
       cursor: pointer;
     }
@@ -2176,21 +2177,21 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 130.76px;
-      height: 60.38px;
-      font-size: 13px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
       cursor: pointer;
     }
     
   .grid-container {
-      display: block;
-      gap: 20px;
-      width: 100%;
-      padding: 0 20px;
-      background-color: #F6F6FC; 
+    display: block;
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #F6F6FC; 
   }
   
-  .card100 {
+  .card {
     width: 100%;
     box-shadow: 0px 2px 4px rgba(225, 227, 239);
     border-radius: 10px;
@@ -2200,47 +2201,33 @@ textarea {
     margin-bottom: 30px;
   }
   
-  .card100 img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card {
-      width: 100%;
-      box-shadow: 0px 2px 4px rgba(225, 227, 239);
-      border-radius: 10px;
-      background-color: #FFFFFF;
-      overflow: hidden;
-      margin-bottom: 20px;
-  }
-  
   .card img {
       width: 100%;
       height: auto;
   }
   
   .card-content {
-      flex-grow: 1;
-      padding: 16px;
-      text-align: left;
+    flex-grow: 1;
+    padding: 16px;
+    text-align: left;
   }
   
   .card-content h3 {
-      font-size: 20px;
+      font-size: 25.02px;
       margin-bottom: 12px;
       color: #000;
   }
   
   .card-content p {
       color: #6B6B6B;
-      font-size: 13px;
+      font-size: 13.5px;
       line-height: 25px;
       margin-bottom: 10px;
   }
   
   .blot {
       width: 100%;
-      height: 7vh;
+      height: 30px !important;
       border-radius: 30px;
       font-size: 20px;
       cursor: pointer;
@@ -2251,6 +2238,7 @@ textarea {
   
   .hero-section101 {
     width: 100vw;
+    max-width: 430px;
     min-height: 100vh;
     background-size: cover;
     display: flex;
@@ -2263,37 +2251,40 @@ textarea {
 }
 
 .hero-content101 {
-    width: 100%;
-    color: white;
-    margin: 30px auto 40px auto;
-    text-align: left;
-    justify-content: justify;
-    display: flex;
-    flex-direction: column;
-    margin-left: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -40px;
 }
 
 .hero-content101 h1 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: left;
+    font-size: 18.34px;
+    font-weight: 700;
+    line-height: 20.43px;
+    margin-bottom: 10px;
+    text-align: center;
     width: 100%;
 }
 
 .hero-content101 p {
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 1.6;
-    text-align: left;
-    margin-top: 10px;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 0.08px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  width: 440px;
 }
 
 .form-container {
-    background: #6464c8;
+    background: #4D52C6;
     padding: 30px;
-    border-radius: 10px;
-    max-width: 1050px;
+    border-radius: 5px;
+    max-width: 1200px !important;
     width: 90%;
     text-align: left;
     z-index: 2;
@@ -2303,7 +2294,7 @@ textarea {
   .form-container h2 {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 17.45px;
     margin-bottom: 30px;
   }
   
@@ -2314,16 +2305,16 @@ textarea {
   
   .label1 {
     color: white;
-    font-size: 17px;
+    font-size: 7.85px !important;
     margin-bottom: 5px;
     margin-top: 10px;
   }
   
   label {
     color: white;
-    font-size: 17px;
+    font-size: 7.85px !important;
     margin-bottom: 5px;
-    margin-top: 35px;
+    margin-top: 5px !important;
   }
   
   span {
@@ -2334,11 +2325,11 @@ textarea {
   textarea {
     width: 100%;
     padding: 12px;
-    height: 70px;
+    height: 50px !important;
     border-radius: 5px;
     border: none;
-    margin-bottom: 15px;
-    font-size: 16px;
+    margin-bottom: 5px !important;
+    font-size: 7.85px !important;
   }
   
   textarea {
@@ -2348,143 +2339,16 @@ textarea {
   
   .submit1 {
     width: 100%;
-    height: 70px;
+    height: 50px !important;
     padding: 12px;
     background: white;
     color: #6464c8;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 10px !important;
     cursor: pointer;
     transition: 0.3s;
-  }
-  
-  .container120 {
-    flex-direction: column;
-  }
-
-  .footer {
-    width: 100%;
-    background-color: #121212;
-    padding: 40px 90px;
-    text-align: left;
-  }
-  
-  .footer-col {
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 0;
-    margin-top: -90px;
-    text-align: left;
-  }
-  
-  .footer-col1{
-    width: 100%;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 0;
-    margin-left: 1px;
-  }
-  
-  .footer-col2{
-    width: 100%;
-    margin-top: -50px;
-    margin-bottom: 30px;
-    padding: 0;
-    text-align: left;
-  }
-  
-  .footer-col3{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 0;
-    text-align: left;
-  }
-  
-  .footer-col h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  
-  .footer-col1 h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  .footer-col2 h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  .footer-col3 h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  
-  .footer-col ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .footer-col1 ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .footer-col2 ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .footer-col3 ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .copy {
-    text-align: left;
-    font-size: 15px;
   }
   
   .banner {
@@ -2710,8 +2574,8 @@ textarea {
     .stat-item {
       display: flex;
       align-items: center;
-      gap: 0px; /* Reduce or remove gap */
-      padding-left: 5px; /* Reduce left padding */
+      gap: 0px;
+      padding-left: 5px;
   }
     
     .stat-icon {
@@ -2858,8 +2722,8 @@ textarea {
   line-height: 15px;
   letter-spacing: 0.2px;
   color: #939393;
-  text-align: center; /* Already correct */
-  width: 343px; /* Matches Figma */
+  text-align: center;
+  width: 343px;
 }
 
   
@@ -2891,6 +2755,7 @@ textarea {
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
+    padding-left: 10px;
     color: #252b42;
     font-family: 'Open sans', sans-serif;
     margin-bottom: 15px;
@@ -2902,6 +2767,7 @@ textarea {
     line-height: 30px;
     margin-bottom: 20px;
     text-align: left;
+    padding-left: 10px;
     font-family: 'Open sans', sans-serif;
     font-weight: 600;
   }
@@ -3098,7 +2964,7 @@ textarea {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
-  width: 375px; /* Ensures consistency with Figma */
+  width: 375px;
 }
 
 .form-container {
@@ -3219,6 +3085,8 @@ textarea {
 }
 
 @media (max-width: 375px){
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
   * {
     box-sizing: border-box;
   }
@@ -3378,7 +3246,7 @@ textarea {
     
     .stats-section {
       width: 97%; 
-      max-width: 380px;
+      max-width: 350px;
       height: 65.36px;
       margin: 0 auto;
       display: flex;
@@ -3393,18 +3261,16 @@ textarea {
     .stat-item {
       display: flex;
       align-items: center;
-      gap: 9px;
-      margin-left: 10px;
-    }
+      gap: 0px;
+      padding-left: 5px;
+  }
     
     .stat-icon {
       font-size: 5rem;
       color: #4d52c6;
-      padding: 2px;
-      width: 26.78px;
-      height: 19.47px;
-      align-items: center;
-      margin-right: -10px;
+      padding: 1px;
+      width: 36.78px;
+      height: 29.47px;
     }
     
     .stat-item h3 {
@@ -3474,7 +3340,7 @@ textarea {
     .service-card {
       width: 354px !important;
       flex-grow: 1;
-      max-width: 400px;
+      max-width: 340px;
       margin-bottom: 30px;
     }
     
@@ -3528,14 +3394,13 @@ textarea {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 10px 0;
+      padding: 5px 0;
   }
 
   .who h1{
     font-size: 22px;
     font-weight: 700;
     color: #4d52c6;
-    margin-top: 0px;
 }
 
 .who p {
@@ -3543,8 +3408,10 @@ textarea {
   line-height: 15px;
   letter-spacing: 0.2px;
   color: #939393;
-  text-align: center; /* Already correct */
-  width: 343px; /* Matches Figma */
+  text-align: center;
+  width: 343px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
   
@@ -3572,21 +3439,23 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 24px;
+    font-size: 20px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
+    padding-left: 10px;
     color: #252b42;
     font-family: 'Open sans', sans-serif;
     margin-bottom: 15px;
   }
   
   .trust-text p {
-    font-size: 12px;
+    font-size: 11px;
     color: #737373;
     line-height: 30px;
     margin-bottom: 20px;
     text-align: left;
+    padding-left: 10px;
     font-family: 'Open sans', sans-serif;
     font-weight: 600;
   }
@@ -3607,7 +3476,7 @@ textarea {
 
 .trust-image img {
     width: 100%;
-    width: 346px;
+    width: 330px;
     height: 259.23px;
     border-radius: 8px;
     display: block;
@@ -3646,7 +3515,7 @@ textarea {
     
     .OurServices{
       color: #4d52c6;
-      font-size: 17px;
+      font-size: 16px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -3692,14 +3561,14 @@ textarea {
     }
     
   .grid-container {
-      display: block;
-      gap: 20px;
-      width: 100%;
-      padding: 0 20px;
-      background-color: #F6F6FC; 
+    display: block;
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #F6F6FC; 
   }
   
-  .card100 {
+  .card {
     width: 100%;
     box-shadow: 0px 2px 4px rgba(225, 227, 239);
     border-radius: 10px;
@@ -3709,31 +3578,15 @@ textarea {
     margin-bottom: 30px;
   }
   
-  .card100 img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card {
-      width: 100%;
-      box-shadow: 0px 2px 4px rgba(225, 227, 239);
-      border-radius: 10px;
-      max-width: 352px;
-      height: 470.5px;
-      background-color: #FFFFFF;
-      overflow: hidden;
-      margin-bottom: 20px;
-  }
-  
   .card img {
       width: 100%;
       height: auto;
   }
   
   .card-content {
-      flex-grow: 1;
-      padding: 16px;
-      text-align: left;
+    flex-grow: 1;
+    padding: 16px;
+    text-align: left;
   }
   
   .card-content h3 {
@@ -3751,7 +3604,7 @@ textarea {
   
   .blot {
       width: 100%;
-      height: 7vh;
+      height: 30px !important;
       border-radius: 30px;
       font-size: 20px;
       cursor: pointer;
@@ -3775,36 +3628,38 @@ textarea {
 }
 
 .hero-content101 {
-    width: 100%;
-    color: white;
-    margin: 30px auto 40px auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-left: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -40px;
 }
 
 .hero-content101 h1 {
     font-size: 16.34px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 20.43px;
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
 }
 
 .hero-content101 p {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 10px;
-    text-align: left;
-    margin-top: 10px;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.08px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  width: 375px;
 }
 
 .form-container {
-    background: #6464c8;
+    background: #4D52C6;
     padding: 30px;
-    border-radius: 10px;
-    max-width: 1050px;
+    border-radius: 5px;
+    max-width: 1200px !important;
     width: 90%;
     text-align: left;
     z-index: 2;
@@ -3814,7 +3669,7 @@ textarea {
   .form-container h2 {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 17.45px;
     margin-bottom: 30px;
   }
   
@@ -3825,16 +3680,16 @@ textarea {
   
   .label1 {
     color: white;
-    font-size: 17px;
+    font-size: 7.85px !important;
     margin-bottom: 5px;
     margin-top: 10px;
   }
   
   label {
     color: white;
-    font-size: 17px;
+    font-size: 7.85px !important;
     margin-bottom: 5px;
-    margin-top: 35px;
+    margin-top: 5px !important;
   }
   
   span {
@@ -3845,11 +3700,11 @@ textarea {
   textarea {
     width: 100%;
     padding: 12px;
-    height: 70px;
+    height: 50px !important;
     border-radius: 5px;
     border: none;
-    margin-bottom: 15px;
-    font-size: 16px;
+    margin-bottom: 5px !important;
+    font-size: 7.85px !important;
   }
   
   textarea {
@@ -3859,143 +3714,16 @@ textarea {
   
   .submit1 {
     width: 100%;
-    height: 70px;
+    height: 50px !important;
     padding: 12px;
     background: white;
     color: #6464c8;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 10px !important;
     cursor: pointer;
     transition: 0.3s;
-  }
-  
-  .container120 {
-    flex-direction: column;
-  }
-
-  .footer {
-    width: 100%;
-    background-color: #121212;
-    padding: 40px 90px;
-    text-align: left;
-  }
-  
-  .footer-col {
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 0;
-    margin-top: -90px;
-    text-align: left;
-  }
-  
-  .footer-col1{
-    width: 100%;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 0;
-    margin-left: 1px;
-  }
-  
-  .footer-col2{
-    width: 100%;
-    margin-top: -50px;
-    margin-bottom: 30px;
-    padding: 0;
-    text-align: left;
-  }
-  
-  .footer-col3{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 0;
-    text-align: left;
-  }
-  
-  .footer-col h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  
-  .footer-col1 h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  .footer-col2 h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  .footer-col3 h4 {
-    text-align: left;
-    font-size: 20px
-  }
-  
-  .footer-col ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .footer-col1 ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .footer-col2 ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .footer-col3 ul li a {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 24px;
-    display: block;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
-  
-  .copy {
-    text-align: left;
-    font-size: 15px;
   }
   
   .banner {

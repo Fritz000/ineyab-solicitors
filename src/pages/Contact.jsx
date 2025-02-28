@@ -37,7 +37,6 @@ const Contact = () => {
         </div>
         <p className='numbers'>
           02086946419, 07908523354{" "}
-          (<span className="out-of-office">Out of office</span>)
         </p>
       </div>
 
