@@ -24,7 +24,7 @@ const Contact = () => {
       <section className="contact-container100">
       <div className="contact-card">
         <div className="icon-title">
-        <MapPin size={40} color="#4d52c6" />
+        <MapPin className='phone' color="#4d52c6" />
         <h3>Address</h3>
         </div>
         <p>Capital House, 1st Floor </p><p className='fourty'>47 Rushey Green, Catford, London, SE6 4AS</p>
@@ -32,7 +32,7 @@ const Contact = () => {
 
       <div className="contact-card">
         <div className="icon-title">
-        <Phone size={40} color="#4d52c6" />
+        <Phone className='phone' color="#4d52c6" />
         <h3>Phone number</h3>
         </div>
         <p className='numbers'>
@@ -43,7 +43,7 @@ const Contact = () => {
 
       <div className="contact-card">
         <div className="icon-title">
-        <Mail size={40} color="#4d52c6" />
+        <Mail className='phone' color="#4d52c6" />
         <h3>Email</h3>
         </div>
         <p className='email'>info@ineyabsolicitors.com</p>
@@ -135,7 +135,7 @@ const Contact = () => {
           <div className="footer-col3">
             <h4>Contact</h4>
               <ul>
-              <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+              <li><a href="tel:02086946419">02086946419, 07908523354</a></li>
                 <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
                 <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
               </ul>

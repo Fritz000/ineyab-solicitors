@@ -67,21 +67,27 @@ const Home = () => {
       {/* Stats Section */}
       <section className="stats-section">
         <div className="stat-item">
+          <div className="user101">
           <FaUsers className="stat-icon" />
+          </div>
           <div className="stat-text">
           <h3>HUGE</h3>
           <p>Trusted Clients</p>
           </div>
         </div>
         <div className="stat-item">
+        <div className="user101">
           <FaHandshake className="stat-icon" />
+          </div>
           <div className="stat-text">
           <h3>HIGH</h3>
           <p>Compensation Cases</p>
           </div>
         </div>
         <div className="stat-item">
+        <div className="user101">
           <MdGavel className="stat-icon" />
+          </div>
           <div className="stat-text">
           <h3>HIGH</h3>
           <p>Successful Cases</p>
@@ -232,7 +238,7 @@ const Home = () => {
           <button className="blot"><Link to ="/Contact">Talk to us</Link></button>
         </div>
       </div>
-      <div className="card100">
+      <div className="card">
         <img src={Frame200} alt="" />
         <div className="card-content">
           <h3>Business & Commercial Transactions</h3>
@@ -329,7 +335,7 @@ const Home = () => {
           <div className="footer-col3">
             <h4>Contact</h4>
               <ul>
-              <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+              <li><a href="tel:02086946419">02086946419, 07908523354</a></li>
                 <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
                 <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
               </ul>

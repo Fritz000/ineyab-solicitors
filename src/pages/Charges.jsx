@@ -148,8 +148,6 @@ const Charges = () => {
           <button className="pricing-btn">Talk to us</button>
         </div>
         {/* Civil Litigation */}
-        
-        {/* Civil Litigation */}
         <div className="pricing-box">
           <h2>Miscellaneous</h2>
           <p>Contact us for an estimate. Our current hourly rates are:</p>
@@ -222,14 +220,12 @@ const Charges = () => {
           <CircleCheckBig className="iconos" />
           <span className="list-text">
           Judicial Review work <span className="highlight"> £2,500</span> plus disbursements. Additional fees apply on renewal.{' '}
-            
           </span>
         </li>
         <li>
           <CircleCheckBig className="iconos" />
           <span className="list-text">
           Attendance at detention centres to obtain instructions &amp; representation <span className="highlight"> £500</span> plus disbursements. {' '}
-            
           </span>
         </li>
         <li>
@@ -331,7 +327,7 @@ const Charges = () => {
                     <div className="footer-col3">
                       <h4>Contact</h4>
                         <ul>
-                        <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+                        <li><a href="tel:02086946419">02086946419, 07908523354</a></li>
                           <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
                           <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
                         </ul>

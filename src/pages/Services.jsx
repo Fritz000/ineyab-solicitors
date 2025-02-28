@@ -210,7 +210,7 @@ const Services = () => {
           <div className="footer-col3">
             <h4>Contact</h4>
               <ul>
-              <li><a href="tel:02086946419">02086946419, 07908523354 (Out of Office)</a></li>
+              <li><a href="tel:02086946419">02086946419, 07908523354</a></li>
                 <li><a href="info@INEYABsolicitors.com">info@INEYABsolicitors.com</a></li>
                 <li><a href="ineyabsolicitors@yahoo.com">ineyabsolicitors@yahoo.com</a></li>
               </ul>
@@ -226,4 +226,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

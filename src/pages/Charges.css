@@ -266,9 +266,9 @@ body, html {
 .iconos {
   color: green;
   margin-right: 10px;
-  flex: none; /* Prevent shrinking */
-  width: 24px; /* Fixed width */
-  height: 24px; /* Fixed height */
+  flex: none;
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -292,4 +292,333 @@ body, html {
 
 .pricing-btn:hover {
   background-color: #3a40b3;
+}
+
+@media (max-width: 390px){
+  * {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .first10 {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .charges {
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px 1px;
+    margin: 0 auto;
+  }
+  
+    .charges-content h1 {
+      font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 34px;
+    margin-top: 0;
+    }
+    
+    .charges-content p {
+      font-size: 10px;
+      font-family: 'Open sans', sans-serif;
+      font-weight: 700;
+      line-height: 20px;
+      font-weight: 400;
+      color: #DDDAD9;
+      margin-top: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .legal-fees-section {
+      display: block;
+      align-items: left;
+      background: white;
+      padding: 10px;
+    }
+    
+    .legal-fees-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      gap: 100px;
+      max-width: 1200px;
+      background: #ffffff;
+      padding: 40px;
+    }
+    
+    .legal-fees-image{
+      transform: translateX(-10%);
+      margin-bottom: 130px;
+    }
+    
+    .legal-fees-image img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 12px;
+    }
+    
+    .legal-fees-content {
+      display: flex;
+      transform: translateX(-133%);
+      padding-top: 50px;
+    }
+    
+    .legal-fees-content h2 {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .legal-fees-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    
+    .primary-btn100 {
+      background-color: #4D52C6;
+      color: white;
+      border-radius: 50px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .secondary-btn100 {
+      background-color: transparent;
+      color: #4d52c6;
+      border: 2px solid #4d52c6;
+      border-radius: 50px;
+      width: 175px;
+      height: 36px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    
+    .full-width-text {
+      max-width: 1100px; /* Keep the same width */
+      width: 100%;
+      text-align: left;
+      font-size: 15px; /* Slightly reduce text size */
+      color: #555;
+      line-height: 1.4; /* Reduce space between lines */
+      margin-top: -30px;
+      margin-bottom: 30px;
+      padding-left: 10px; /* Add spacing on left */
+      padding-right: 10px; /* Add spacing on right */
+  }
+  
+
+    .pricing-section{
+      background-color: #fff;
+    }
+
+    .pricing-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+      justify-content: space-between;
+      gap: 20px;
+      max-width: 1380px;
+      margin: 0 auto;
+      margin-bottom: 70px;
+    }
+    
+    .pricing-box {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      border: 0.5px solid #999999;
+      flex: 1 1 48%;
+      max-width: 800px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      font-family: "Open Sans", sans-serif;
+    }
+    
+    .pricing-box1 {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      border: 0.5px solid #999999;
+      flex: 1 1 48%;
+      max-width: 645px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      font-family: "Open Sans", sans-serif;
+    }
+    
+    .pricing-box1 h2{
+      font-family: "Open Sans", sans-serif;
+      font-size: 25.02px;
+      line-height: 25px;
+      letter-spacing: 0.2s;
+    }
+    
+    .pricing-box1 p{
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: 400;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      letter-spacing: 0.2s;
+    }
+    
+    .pricing-box1 li {
+      display: flex;
+      align-items: flex-start;
+      text-align: justify;
+      font-size: 15px;
+      line-height: 10px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      font-family: "Open Sans", sans-serif;
+    }
+    
+    .pricing-box h2{
+      font-family: "Open Sans", sans-serif;
+      font-size: 25.02px;
+      line-height: 25px;
+      letter-spacing: 0.2s;
+    }
+    
+    .pricing-box p{
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: 400;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      letter-spacing: 0.2s;
+    }
+    
+    
+    .pricing-box ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .pricing-box li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.5;
+    }
+    
+    .list-text {
+      color: #000;
+      line-height: 1.5;
+    }
+    
+    .highlight {
+      color: #4d52c6;
+      font-weight: bold;
+    }
+  
+    .iconos {
+      color: green;
+      margin-right: 10px;
+      flex: none;
+      width: 20px;
+      height: 20px;
+    }
+    
+    .pricing-btn {
+      background-color: #4d52c6;
+      color: white;
+      border: none;
+      padding: 14px;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 15px;
+      width: 100%;
+      height: 5vh;
+      text-align: center;
+      transition: 0.3s;
+      font-family: "Open Sans", sans-serif;
+    }
+    
+    .pricing-btn:hover {
+      background-color: #3a40b3;
+    }
+  
+  .container120 {
+    flex-direction: column;
+  }
+  
+  .banner {
+    width: calc(100% - 10px);
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    min-height: 50px;
+    overflow: hidden;
+  }
+  
+  .banner-content {
+    text-align: left;
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .banner h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #D7D7D7;
+  }
+  
+  .blot105 {
+    background-color: #5a3cf9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13.06px;
+    width: 110.76px;
+    height: 40.38px;
+    border-radius: 58.21px;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  
 }
