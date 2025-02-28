@@ -670,27 +670,29 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: -100px;
+  margin-left: -80px;
 }
 
 .hero-content103 h1 {
-  font-size: 16.34px;
-  font-weight: 700;
-  line-height: 20.43px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 100%;
+  font-size: 18.34px;
+    font-weight: 700;
+    line-height: 20.43px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 .hero-content103 p {
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 400;
-  line-height: 12px;
+  line-height: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   letter-spacing: 0.08px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
-  width: 375px; /* Ensures consistency with Figma */
+  width: 440px;
 }
 
 .form-container103 {
