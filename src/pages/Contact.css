@@ -1049,3 +1049,214 @@ body, html {
     }
   
 }
+
+@media (max-width: 360px){
+  * {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .first11 {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .contact20-container {
+    width: 100vw;
+    min-height: 65vh ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px 15px;
+    margin: 0 auto;
+  }
+
+  .contact-container {
+    width: 100vw;
+  min-height: 65vh ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+  
+    .contact-container h1 {
+      font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  line-height: 34px;
+  margin-top: 0;
+    }
+    
+    .contact-container p {
+      font-size: 15px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    font-weight: 400;
+    color: #DDDAD9;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    }
+
+    .contact-container100 {
+      display: block;
+      width: 90%;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px 1px;
+      background-color: #fff;
+  }
+        
+  .contact-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+  }  
+
+  .icon-title {
+      display: flex;
+      align-items: left;
+      gap: 30px;
+    }
+
+    .icon-title .phone{
+      width: 30px;
+      height: 30px;
+    }
+    
+    .icon-title h3 {
+      font-size: 20px;
+      font-family: 'open sans', 'sans-serif';
+      line-height: 30px;
+      font-weight: bold;
+      margin: 0;
+    }
+  
+    .contact-card .numbers{
+      font-size: 15px;
+      color: #818181;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 305px;
+      height: 24px;
+      text-align: left;
+    }
+  
+    .contact-card .numbers::before{
+      content: "•"; 
+      color: #D9D9D9;
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 5px;
+      position: relative;
+      top: 4px; 
+    }
+  
+    .contact-card .fourty{
+      font-size: 12px;
+      color: #818181;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 305px;
+      height: 24px;
+      text-align: left;
+    }
+  
+    .contact-card .fourty::before{
+      content: "•"; 
+      color: #D9D9D9;
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 5px;
+      position: relative;
+      top: 4px; 
+    }
+  
+    .contact-card .email{
+      font-size: 15px;
+      color: #818181;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 305px;
+      height: 24px;
+      text-align: left;
+    }
+  
+    .contact-card .email::before{
+      content: "•"; 
+      color: #D9D9D9;
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 5px;
+      position: relative;
+      top: 4px; 
+    }
+  
+    .contact-card .email1{
+      font-size: 15px;
+      color: #818181;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 305px;
+      height: 24px;
+      text-align: left;
+    }
+  
+    .contact-card .email1::before{
+      content: "•"; 
+      color: #D9D9D9;
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 5px;
+      position: relative;
+      top: 4px; 
+    }
+    
+    .contact-card p {
+      font-size: 12px;
+      color: #818181;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 305px;
+      height: 24px;
+      text-align: left;
+    }
+  
+    .contact-card p::before{
+      content: "•"; 
+      color: #D9D9D9;
+      font-size: 24px;
+      font-weight: bold;
+      margin-right: 5px;
+      position: relative;
+      top: 4px; 
+    }
+    
+    .out-of-office {
+      color: #FF385C;
+      font-weight: bold;
+    }
+  
+}
