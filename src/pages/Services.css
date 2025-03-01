@@ -1761,11 +1761,11 @@ textarea {
     line-height: 24px;
     display: block;
     transition: all 0.3s ease;
-    white-space: nowrap;
-    overflow: hidden;
+    white-space: normal; /* Allow wrapping */
+    overflow: hidden; /* Optional, if needed */
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
+}
   
   .footer-col1 ul li a {
     font-size: 9.7px;
@@ -1776,8 +1776,9 @@ textarea {
     line-height: 24px;
     display: block;
     transition: all 0.3s ease;
-    white-space: nowrap;
+    white-space: normal;
     overflow: hidden;
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     text-overflow: ellipsis;
   }
@@ -1791,8 +1792,9 @@ textarea {
     line-height: 24px;
     display: block;
     transition: all 0.3s ease;
-    white-space: nowrap;
+    white-space: break-word;
     overflow: hidden;
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     text-overflow: ellipsis;
   }
@@ -1806,8 +1808,9 @@ textarea {
     line-height: 24px;
     display: block;
     transition: all 0.3s ease;
-    white-space: nowrap;
+    white-space: break-word;
     overflow: hidden;
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     text-overflow: ellipsis;
   }
@@ -2055,7 +2058,7 @@ textarea {
 }
 
 .hero-content103 p {
-  font-size: 8px;
+  font-size: 7px;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 0.08px;
