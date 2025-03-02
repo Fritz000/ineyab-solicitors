@@ -69,24 +69,25 @@ const Contact = () => {
           
               <div className="form-container">
                 <h2>Request A Free Consultation</h2>
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="f3966dab-4178-4826-a487-b8fadceb10ae"/>
                   <label className='label1' htmlFor="name">
                     First and Last Name <span>*</span>
                   </label>
-                  <input type="text" id="name" placeholder="Enter first and last name" required />
+                  <input type="text" id="name" name="name" placeholder="Enter first and last name" required />
           
                   <label htmlFor="email">
                     Email Address <span>*</span>
                   </label>
-                  <input type="email" id="email" placeholder="Enter email address" required />
+                  <input type="email" id="email" name="email" placeholder="Enter email address" required />
           
                   <label htmlFor="phone">Phone</label>
-                  <input type="tel" id="phone" placeholder="Enter phone number" />
+                  <input type="tel" id="phone" name="phone" placeholder="Enter phone number" />
           
                   <label htmlFor="message">
                     Message <span>*</span>
                   </label>
-                  <textarea id="message" placeholder="Enter your messages" required></textarea>
+                  <textarea id="message" name="message" placeholder="Enter your messages" required></textarea>
           
                   <button className="submit1" type="submit">
                     Submit

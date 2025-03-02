@@ -258,7 +258,7 @@ body, html {
       background: #4d52c6;
       padding: 40px 20px;
       border-radius: 20px;
-      box-shadow: 0px 4px 10px rgb(106,110,207);
+      border: 2px solid #5E63CC;
       flex: 1;
       text-align: center;
       max-width: 400px;
@@ -3170,7 +3170,7 @@ textarea {
   
   .hero-section {
     width: 100%;
-    height: 550px;
+    height: 450px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3180,7 +3180,7 @@ textarea {
     justify-content: flex-start;
     text-align: center;
     color: white;
-    padding: 100px 20px;
+    padding: 50px 20px;
     margin: 0 auto;
   }
   
@@ -3194,7 +3194,7 @@ textarea {
     }
     
     .hero-section p {
-      font-size: 14px;
+      font-size: 12px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 30px;
@@ -3278,7 +3278,7 @@ textarea {
     
     .cta-buttons {
       transform: translateX(-10%);
-      transform: translateY(-20%);
+      transform: translateY(-40%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -3307,13 +3307,13 @@ textarea {
       font-size: 12px;
       cursor: pointer;
     }
-    
+
     .stats-section {
+      display: none;
       width: 96%; 
       max-width: 1044px;
       height: 47.08px;
       margin: 0 auto;
-      display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
@@ -3419,13 +3419,13 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -10.5px;
+      margin-left: 30px;
     }
     
     .service-card {
-      width: 354px !important;
+      width: 280px !important;
       flex-grow: 1;
-      max-width: 400px;
+      border: 2px solid #5E63CC;
       margin-bottom: 30px;
     }
     
@@ -3436,23 +3436,23 @@ textarea {
     }
     
     .user2 {
-        width: 103.45px; 
-        height: 103.45px;
+        width: 60.45px; 
+        height: 60.45px;
         border-radius: 50%;
+        border: 1px gray;
         margin: 0 auto 15px;
         background: white;
         color: #1d4ed8;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       }
       
       
     .service-icon {
         color: #1d4ed8;
-        width: 82.07px;
-        height: 82.07px;
+        width: 50.07px;
+        height: 50.07px;
         margin-top: 10px;
     }
   
@@ -3479,14 +3479,14 @@ textarea {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 10px 0;
+      padding: 5px 0;
   }
 
   .who h1{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     color: #4d52c6;
-    margin-top: -100px;
+    margin-top: -90px;
 }
 
 .who p {
@@ -3494,18 +3494,17 @@ textarea {
   line-height: 15px;
   letter-spacing: 0.2px;
   color: #939393;
-  margin-top: -10px;
   text-align: center;
   width: 343px;
+  margin-top: -10px;
 }
 
-  
   .legal-trust-container {
       display: flex; 
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 40px 0;
+      padding: 10px 0;
       width: 100%;
       text-align: center;
   }
@@ -3524,7 +3523,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 24px;
+    font-size: 28px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -3591,7 +3590,7 @@ textarea {
   
     .service00{
       display: block;
-      padding: 5px 0;
+      padding: 40px 0;
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
@@ -3600,7 +3599,7 @@ textarea {
     
     .OurServices{
       color: #4d52c6;
-      font-size: 17px;
+      font-size: 28px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -3621,7 +3620,6 @@ textarea {
       align-items: center;
       justify-content: center;
       gap: 15px;
-      margin-bottom: 30px;
     }
     
     .primary-btn1 {
@@ -3692,7 +3690,7 @@ textarea {
       width: 100%;
       height: 30px !important;
       border-radius: 30px;
-      font-size: 20px;
+      font-size: 12px !important;
       cursor: pointer;
       color: #4d52c6;
       border-color: #4D52C6;
@@ -3702,7 +3700,7 @@ textarea {
   .hero-section101 {
     width: 100vw;
     max-width: 430px;
-    min-height: 100vh;
+    min-height: 50vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -3722,7 +3720,7 @@ textarea {
 }
 
 .hero-content101 h1 {
-    font-size: 18.34px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 20.43px;
     margin-bottom: 10px;
@@ -3731,24 +3729,22 @@ textarea {
 }
 
 .hero-content101 p {
-  font-size: 9px;
+  font-size: 7px;
   font-weight: 400;
-  line-height: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  line-height: 12px;
   letter-spacing: 0.08px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
-  width: 440px;
+  width: 375px;
 }
 
 .form-container {
     background: #4D52C6;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
-    width: 90%;
+    width: 98%;
     text-align: left;
     z-index: 2;
     margin: 30px auto;
@@ -3819,13 +3815,15 @@ textarea {
     margin: 50px auto;
     align-items: center;
     justify-content: center;
+    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    text-align: left;
+    text-align: center !important;
     margin: 0;
     padding: 30px;
     width: 100%;
@@ -4021,11 +4019,11 @@ textarea {
     }
 
     .stats-section {
+      display: none;
       width: 96%; 
       max-width: 1044px;
       height: 47.08px;
       margin: 0 auto;
-      display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
@@ -4131,12 +4129,13 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -20.5px;
+      margin-left: 5px;
     }
     
     .service-card {
-      width: 354px !important;
+      width: 300px !important;
       flex-grow: 1;
+      border: 2px solid #5E63CC;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -4148,23 +4147,23 @@ textarea {
     }
     
     .user2 {
-        width: 103.45px; 
-        height: 103.45px;
+        width: 60.45px; 
+        height: 60.45px;
         border-radius: 50%;
+        border: 1px gray;
         margin: 0 auto 15px;
         background: white;
         color: #1d4ed8;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       }
       
       
     .service-icon {
         color: #1d4ed8;
-        width: 82.07px;
-        height: 82.07px;
+        width: 50.07px;
+        height: 50.07px;
         margin-top: 10px;
     }
   
@@ -4195,7 +4194,7 @@ textarea {
   }
 
   .who h1{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     color: #4d52c6;
     margin-top: 0px;
@@ -4235,7 +4234,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 24px;
+    font-size: 28px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -4311,7 +4310,7 @@ textarea {
     
     .OurServices{
       color: #4d52c6;
-      font-size: 17px;
+      font-size: 28px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -4402,7 +4401,7 @@ textarea {
       width: 100%;
       height: 30px !important;
       border-radius: 30px;
-      font-size: 20px;
+      font-size: 12px !important;
       cursor: pointer;
       color: #4d52c6;
       border-color: #4D52C6;
@@ -4453,10 +4452,10 @@ textarea {
 
 .form-container {
     background: #4D52C6;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
-    width: 90%;
+    width: 98%;
     text-align: left;
     z-index: 2;
     margin: 30px auto;
@@ -4527,13 +4526,15 @@ textarea {
     margin: 50px auto;
     align-items: center;
     justify-content: center;
+    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    text-align: left;
+    text-align: center !important;
     margin: 0;
     padding: 30px;
     width: 100%;
@@ -4710,7 +4711,7 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -4722,18 +4723,18 @@ textarea {
       color: white;
       border: 2px solid white;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
     }
-    
+
     .stats-section {
+      display: none;
       width: 96%; 
       max-width: 1044px;
       height: 47.08px;
       margin: 0 auto;
-      display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
@@ -4839,13 +4840,14 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -20.5px;
+      margin-left: -2px;
     }
     
     .service-card {
-      width: 354px !important;
+      width: 290px !important;
       flex-grow: 1;
-      max-width: 340px;
+      border: 2px solid #5E63CC;
+      max-width: 400px;
       margin-bottom: 30px;
     }
     
@@ -4856,23 +4858,23 @@ textarea {
     }
     
     .user2 {
-        width: 103.45px; 
-        height: 103.45px;
+        width: 50.45px; 
+        height: 50.45px;
         border-radius: 50%;
+        border: 1px gray;
         margin: 0 auto 15px;
         background: white;
         color: #1d4ed8;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       }
       
       
     .service-icon {
         color: #1d4ed8;
-        width: 82.07px;
-        height: 82.07px;
+        width: 40.07px;
+        height: 40.07px;
         margin-top: 10px;
     }
   
@@ -4899,13 +4901,14 @@ textarea {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 5px 0;
+      padding: 10px 0;
   }
 
   .who h1{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     color: #4d52c6;
+    margin-top: 0px;
 }
 
 .who p {
@@ -4915,11 +4918,9 @@ textarea {
   color: #939393;
   text-align: center;
   width: 343px;
-  margin-top: -10px;
-  margin-bottom: -10px;
+  margin-top: 10px;
 }
 
-  
   .legal-trust-container {
       display: flex; 
       flex-direction: column;
@@ -4940,11 +4941,11 @@ textarea {
   
   .trust-text {
       text-align: left;
-      max-width: 700px;
+      max-width: 340px !important;
   }
 
   .trust-text h2 {
-    font-size: 20px;
+    font-size: 28px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -4955,7 +4956,7 @@ textarea {
   }
   
   .trust-text p {
-    font-size: 11px;
+    font-size: 12px;
     color: #737373;
     line-height: 30px;
     margin-bottom: 20px;
@@ -4980,8 +4981,7 @@ textarea {
 }
 
 .trust-image img {
-    width: 100%;
-    width: 330px;
+    width: 300px;
     height: 259.23px;
     border-radius: 8px;
     display: block;
@@ -4991,7 +4991,7 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -5003,7 +5003,7 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
@@ -5015,12 +5015,11 @@ textarea {
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
-      margin-top: -50px;
     }
     
     .OurServices{
       color: #4d52c6;
-      font-size: 16px;
+      font-size: 28px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -5047,7 +5046,7 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -5059,7 +5058,7 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
@@ -5111,7 +5110,7 @@ textarea {
       width: 100%;
       height: 30px !important;
       border-radius: 30px;
-      font-size: 20px;
+      font-size: 12px !important;
       cursor: pointer;
       color: #4d52c6;
       border-color: #4D52C6;
@@ -5137,7 +5136,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 
 .hero-content101 h1 {
@@ -5150,7 +5149,7 @@ textarea {
 }
 
 .hero-content101 p {
-  font-size: 8px;
+  font-size: 7px;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 0.08px;
@@ -5162,10 +5161,10 @@ textarea {
 
 .form-container {
     background: #4D52C6;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
-    width: 90%;
+    width: 98%;
     text-align: left;
     z-index: 2;
     margin: 30px auto;
@@ -5236,13 +5235,15 @@ textarea {
     margin: 50px auto;
     align-items: center;
     justify-content: center;
+    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    text-align: left;
+    text-align: center !important;
     margin: 0;
     padding: 30px;
     width: 100%;
@@ -5419,7 +5420,7 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 165px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -5431,18 +5432,18 @@ textarea {
       color: white;
       border: 2px solid white;
       border-radius: 50px;
-      width: 165px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
     }
 
     .stats-section {
+      display: none;
       width: 96%; 
       max-width: 1044px;
       height: 47.08px;
       margin: 0 auto;
-      display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
@@ -5459,7 +5460,7 @@ textarea {
   
   .stat-item:first-child {
       justify-content: flex-start;
-      margin-left: -5px;
+      margin-left: 40px;
   }
   
   .stat-item:nth-child(2) {
@@ -5481,8 +5482,8 @@ textarea {
   
     .stat-text{
       text-align: center;
-      margin-top: -15px;
-      margin-left: 10px;
+      margin-top: -25px;
+      margin-left: 25px;
       
     }
     
@@ -5499,7 +5500,6 @@ textarea {
       color: #737373;
       font-weight: bold;
       margin-top: -10px;
-      margin-left: -20px;
     }
   
     .hero-section106 {
@@ -5546,15 +5546,16 @@ textarea {
       align-items: center;
       gap: 20px;
       width: 90vw !important;
-      max-width: 1200px;
+      max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -20.5px;
+      margin-left: -2px;
     }
     
     .service-card {
-      width: 324px !important;
+      width: 290px !important;
       flex-grow: 1;
+      border: 2px solid #5E63CC;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -5566,23 +5567,23 @@ textarea {
     }
     
     .user2 {
-        width: 103.45px; 
-        height: 103.45px;
+        width: 50.45px; 
+        height: 50.45px;
         border-radius: 50%;
+        border: 1px gray;
         margin: 0 auto 15px;
         background: white;
         color: #1d4ed8;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       }
       
       
     .service-icon {
         color: #1d4ed8;
-        width: 82.07px;
-        height: 82.07px;
+        width: 40.07px;
+        height: 40.07px;
         margin-top: 10px;
     }
   
@@ -5613,7 +5614,7 @@ textarea {
   }
 
   .who h1{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     color: #4d52c6;
     margin-top: 0px;
@@ -5649,11 +5650,11 @@ textarea {
   
   .trust-text {
       text-align: left;
-      max-width: 500px;
+      max-width: 340px !important;
   }
 
   .trust-text h2 {
-    font-size: 20px;
+    font-size: 28px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -5664,7 +5665,7 @@ textarea {
   }
   
   .trust-text p {
-    font-size: 9px;
+    font-size: 12px;
     color: #737373;
     line-height: 30px;
     margin-bottom: 20px;
@@ -5689,7 +5690,6 @@ textarea {
 }
 
 .trust-image img {
-    width: 100%;
     width: 300px;
     height: 259.23px;
     border-radius: 8px;
@@ -5700,7 +5700,7 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 155px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -5712,7 +5712,7 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 155px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
@@ -5720,16 +5720,15 @@ textarea {
   
     .service00{
       display: block;
-      padding: 30px 0;
+      padding: 40px 0;
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
-      margin-top: -50px;
     }
     
     .OurServices{
       color: #4d52c6;
-      font-size: 15px;
+      font-size: 28px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -5741,7 +5740,7 @@ textarea {
     .aim{
       color: #5c5c5c;
       margin-top: 12px;
-      font-size: 14px;
+      font-size: 16px;
       margin-bottom: 20px;
     }
   
@@ -5756,7 +5755,7 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 155px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -5768,7 +5767,7 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 155px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
@@ -5820,7 +5819,7 @@ textarea {
       width: 100%;
       height: 30px !important;
       border-radius: 30px;
-      font-size: 20px;
+      font-size: 12px !important;
       cursor: pointer;
       color: #4d52c6;
       border-color: #4D52C6;
@@ -5871,10 +5870,10 @@ textarea {
 
 .form-container {
     background: #4D52C6;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
-    width: 90%;
+    width: 98%;
     text-align: left;
     z-index: 2;
     margin: 30px auto;
@@ -5945,13 +5944,15 @@ textarea {
     margin: 50px auto;
     align-items: center;
     justify-content: center;
+    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    text-align: left;
+    text-align: center !important;
     margin: 0;
     padding: 30px;
     width: 100%;

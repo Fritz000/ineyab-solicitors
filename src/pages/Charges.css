@@ -662,7 +662,7 @@ body, html {
   
   .charges {
     width: 100%;
-    height: 50px;
+    min-height: 65vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -672,9 +672,27 @@ body, html {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 10px 1px;
+    padding: 10px 18px;
     margin: 0 auto;
-  }
+  
+}
+
+.charges-content {
+  width: 100vw;
+  min-height: 65vh ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
   
     .charges-content h1 {
       font-size: 28px;
@@ -699,7 +717,7 @@ body, html {
       display: block;
       align-items: left;
       background: white;
-      padding: 30px;
+      padding: 10px;
     }
     
     .legal-fees-container {
@@ -713,8 +731,8 @@ body, html {
     }
     
     .legal-fees-image{
-      transform: translateX(-10%);
-      margin-bottom: 120px;
+      transform: translateX(-5%);
+      margin-bottom: 130px;
     }
     
     .legal-fees-image img {
@@ -769,15 +787,16 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 14px;
-      color: #555;
-      line-height: 1.4;
+      font-size: 12px;
+      color: #737373;
+      line-height: 30px;
       margin-top: -30px;
-      margin-bottom: 10px;
-      padding-left: 5px;
-      padding-right: 5px;
+      margin-bottom: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: 'Open sans', sans-serif;
   }
-  
+
 
     .pricing-section{
       background-color: #fff;
@@ -894,7 +913,7 @@ body, html {
   
     .iconos {
       color: green;
-      margin-right: 5px;
+      margin-right: 10px;
       flex: none;
       width: 20px;
       height: 20px;
@@ -990,17 +1009,18 @@ body, html {
   }
   
   .charges {
-    width: 100vw;
-    min-height: 65vh ;
+    width: 100%;
+    min-height: 65vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 10px 18px;
     margin: 0 auto;
   
 }
@@ -1017,7 +1037,7 @@ body, html {
   justify-content: center;
   text-align: center;
   color: white;
-  padding: 50px 20px;
+  padding: 10px 30px;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -1115,15 +1135,16 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 15px;
-      color: #555;
-      line-height: 1.4;
+      font-size: 12px;
+      color: #737373;
+      line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
       padding-left: 10px;
       padding-right: 10px;
+      font-family: 'Open sans', sans-serif;
   }
-  
+
 
     .pricing-section{
       background-color: #fff;
@@ -1337,7 +1358,7 @@ body, html {
   
   .charges {
     width: 100%;
-    height: 50px;
+    min-height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1347,9 +1368,27 @@ body, html {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 10px 1px;
+    padding: 10px 18px;
     margin: 0 auto;
-  }
+  
+}
+
+.charges-content {
+  width: 100vw;
+  min-height: 70vh ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
   
     .charges-content h1 {
       font-size: 28px;
@@ -1360,7 +1399,7 @@ body, html {
     }
     
     .charges-content p {
-      font-size: 10px;
+      font-size: 9px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 20px;
@@ -1388,19 +1427,19 @@ body, html {
     }
     
     .legal-fees-image{
-      transform: translateX(-8%);
+      transform: translateX(-5%);
       margin-bottom: 130px;
     }
     
     .legal-fees-image img {
-      width: 100%;
-      max-width: 330px;
+      width: 300px;
+      height: 259.23px;
       border-radius: 12px;
     }
     
     .legal-fees-content {
       display: flex;
-      transform: translateX(-130%);
+      transform: translateX(-138%);
       padding-top: 50px;
     }
     
@@ -1422,7 +1461,7 @@ body, html {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -1434,7 +1473,7 @@ body, html {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 175px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
@@ -1444,15 +1483,16 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 13px;
-      color: #555;
-      line-height: 1.4;
+      font-size:10px;
+      color: #737373;
+      line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
       padding-left: 10px;
       padding-right: 10px;
+      font-family: 'Open sans', sans-serif;
   }
-  
+
 
     .pricing-section{
       background-color: #fff;
@@ -1569,7 +1609,7 @@ body, html {
   
     .iconos {
       color: green;
-      margin-right: 5px;
+      margin-right: 10px;
       flex: none;
       width: 20px;
       height: 20px;
@@ -1665,17 +1705,18 @@ body, html {
   }
   
   .charges {
-    width: 100vw;
-    min-height: 65vh ;
+    width: 100%;
+    min-height: 65vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 10px 18px;
     margin: 0 auto;
   
 }
@@ -1692,7 +1733,7 @@ body, html {
   justify-content: center;
   text-align: center;
   color: white;
-  padding: 50px 30px;
+  padding: 10px 30px;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -1706,7 +1747,7 @@ body, html {
     }
     
     .charges-content p {
-      font-size: 10px;
+      font-size: 9px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 20px;
@@ -1734,7 +1775,7 @@ body, html {
     }
     
     .legal-fees-image{
-      transform: translateX(-8%);
+      transform: translateX(-5%);
       margin-bottom: 130px;
     }
     
@@ -1746,7 +1787,7 @@ body, html {
     
     .legal-fees-content {
       display: flex;
-      transform: translateX(-132%);
+      transform: translateX(-138%);
       padding-top: 50px;
     }
     
@@ -1768,7 +1809,7 @@ body, html {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 155px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       border: none;
@@ -1780,7 +1821,7 @@ body, html {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 155px;
+      width: 145px;
       height: 36px;
       font-size: 12px;
       cursor: pointer;
@@ -1790,15 +1831,16 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 13px;
-      color: #555;
-      line-height: 1.4;
+      font-size: 9px;
+      color: #737373;
+      line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
       padding-left: 10px;
       padding-right: 10px;
+      font-family: 'Open sans', sans-serif;
   }
-  
+
 
     .pricing-section{
       background-color: #fff;
@@ -1915,7 +1957,7 @@ body, html {
   
     .iconos {
       color: green;
-      margin-right: 5px;
+      margin-right: 10px;
       flex: none;
       width: 20px;
       height: 20px;
