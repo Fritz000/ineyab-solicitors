@@ -3433,7 +3433,7 @@ textarea {
   .hero-section103 {
     width: 100vw;
     max-width: 430px;
-    min-height: 100vh;
+    min-height: 50vh !important;
     background-size: cover;
     display: flex;
     flex-direction: column;
