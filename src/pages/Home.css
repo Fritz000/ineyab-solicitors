@@ -1728,7 +1728,8 @@ textarea {
   
 }
 
-@media (max-width: 450px){
+
+@media (max-width: 768px){
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
   * {
@@ -1760,13 +1761,13 @@ textarea {
     justify-content: flex-start;
     text-align: center;
     color: white;
-    padding: 100px 20px;
+    padding: 150px 20px;
     margin: 0 auto;
   }
   
     .hero-section h1 {
       font-weight: bold;
-      font-size: 28px;
+      font-size:32px;
       font-weight: 800;
       margin-bottom: 10px;
       line-height: 40px;
@@ -1774,7 +1775,7 @@ textarea {
     }
     
     .hero-section p {
-      font-size: 14px;
+      font-size: 18px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 30px;
@@ -1870,9 +1871,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
-      height: 36px;
-      font-size: 12px;
+      width: 205px;
+      height: 66px;
+      font-size: 18px;
       border: none;
       cursor: pointer;
     }
@@ -1882,18 +1883,18 @@ textarea {
       color: white;
       border: 2px solid white;
       border-radius: 50px;
-      width: 175px;
-      height: 36px;
-      font-size: 12px;
+      width: 205px;
+      height: 66px;
+      font-size: 18px;
       cursor: pointer;
     }
-    
+
     .stats-section {
+      display: none;
       width: 96%; 
       max-width: 1044px;
       height: 47.08px;
       margin: 0 auto;
-      display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
@@ -1910,7 +1911,7 @@ textarea {
   
   .stat-item:first-child {
       justify-content: flex-start;
-      margin-left: 10px;
+      margin-left: 40px;
   }
   
   .stat-item:nth-child(2) {
@@ -1932,8 +1933,9 @@ textarea {
   
     .stat-text{
       text-align: center;
-      margin-top: -15px;
-      margin-left: 10px;
+      margin-top: -25px;
+      margin-left: 25px;
+      
     }
     
     .stat-item h3 {
@@ -1941,13 +1943,14 @@ textarea {
       color: #000;
       font-weight: bold;
       text-align: left;
+
     }
     
   .stat-item p {
       font-size: 6.66px;
       color: #737373;
       font-weight: bold;
-      margin-top: -5px;
+      margin-top: -10px;
     }
   
     .hero-section106 {
@@ -1970,14 +1973,14 @@ textarea {
   
     .legal-services {
       width: 100%;
-      max-width: 375px;
+      max-width: 1000px;
       margin: 0 auto;
       text-align: center;
-      padding-left: 20px;
+      padding-left: 190px;
   }
   
   .legal-services h2 {
-      font-size: 22px;
+      font-size: 30px;
       width: 100%;
       display: block;
       text-align: center;
@@ -1997,13 +2000,13 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -10.5px;
+      margin-left: -30px;
     }
     
     .service-card {
-      width: 354px !important;
+      width: 400px !important;
       flex-grow: 1;
-      max-width: 400px;
+      border: 2px solid #5E63CC;
       margin-bottom: 30px;
     }
     
@@ -2014,23 +2017,23 @@ textarea {
     }
     
     .user2 {
-        width: 103.45px; 
-        height: 103.45px;
+        width: 80.45px; 
+        height: 80.45px;
         border-radius: 50%;
+        border: 1px gray;
         margin: 0 auto 15px;
         background: white;
         color: #1d4ed8;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       }
       
       
     .service-icon {
         color: #1d4ed8;
-        width: 82.07px;
-        height: 82.07px;
+        width: 65.07px;
+        height: 65.07px;
         margin-top: 10px;
     }
   
@@ -2057,33 +2060,32 @@ textarea {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 10px 0;
+      padding: 5px 0;
   }
 
   .who h1{
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 700;
     color: #4d52c6;
-    margin-top: -100px;
+    margin-top: -190px;
 }
 
 .who p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   letter-spacing: 0.2px;
   color: #939393;
-  margin-top: -10px;
   text-align: center;
   width: 343px;
+  margin-top: -10px;
 }
 
-  
   .legal-trust-container {
       display: flex; 
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 40px 0;
+      padding: 1px 0;
       width: 100%;
       text-align: center;
   }
@@ -2098,11 +2100,11 @@ textarea {
   
   .trust-text {
       text-align: left;
-      max-width: 700px;
+      max-width: 800px;
   }
 
   .trust-text h2 {
-    font-size: 24px;
+    font-size: 32px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -2113,7 +2115,7 @@ textarea {
   }
   
   .trust-text p {
-    font-size: 12px;
+    font-size: 18px;
     color: #737373;
     line-height: 30px;
     margin-bottom: 20px;
@@ -2138,9 +2140,8 @@ textarea {
 }
 
 .trust-image img {
-    width: 100%;
-    width: 346px;
-    height: 259.23px;
+    width: 450px;
+    height: 350px;
     border-radius: 8px;
     display: block;
 }
@@ -2149,9 +2150,9 @@ textarea {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
-      height: 36px;
-      font-size: 12px;
+      width: 205px;
+      height: 66px;
+      font-size: 18px;
       border: none;
       cursor: pointer;
     }
@@ -2161,15 +2162,15 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 175px;
-      height: 36px;
-      font-size: 12px;
+      width: 205px;
+      height: 66px;
+      font-size: 18px;
       cursor: pointer;
     }
   
     .service00{
       display: block;
-      padding: 5px 0;
+      padding: 70px 0;
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
@@ -2178,7 +2179,7 @@ textarea {
     
     .OurServices{
       color: #4d52c6;
-      font-size: 17px;
+      font-size: 32px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -2189,7 +2190,7 @@ textarea {
     
     .aim{
       color: #5c5c5c;
-      margin-top: 12px;
+      margin-top: 18px;
       font-size: 16px;
       margin-bottom: 20px;
     }
@@ -2199,16 +2200,15 @@ textarea {
       align-items: center;
       justify-content: center;
       gap: 15px;
-      margin-bottom: 30px;
     }
     
     .primary-btn1 {
       background-color: #4D52C6;
       color: white;
       border-radius: 50px;
-      width: 175px;
-      height: 36px;
-      font-size: 12px;
+      width: 205px;
+      height: 66px;
+      font-size: 18px;
       border: none;
       cursor: pointer;
     }
@@ -2218,9 +2218,9 @@ textarea {
       color: #4d52c6;
       border: 2px solid #4d52c6;
       border-radius: 50px;
-      width: 175px;
-      height: 36px;
-      font-size: 12px;
+      width: 205px;
+      height: 66px;
+      font-size: 18px;
       cursor: pointer;
     }
     
@@ -2254,23 +2254,23 @@ textarea {
   }
   
   .card-content h3 {
-      font-size: 25.02px;
+      font-size: 32px;
       margin-bottom: 12px;
       color: #000;
   }
   
   .card-content p {
       color: #6B6B6B;
-      font-size: 13.5px;
+      font-size: 18px;
       line-height: 25px;
       margin-bottom: 10px;
   }
   
   .blot {
       width: 100%;
-      height: 30px !important;
+      height: 50px !important;
       border-radius: 30px;
-      font-size: 20px;
+      font-size: 18px !important;
       cursor: pointer;
       color: #4d52c6;
       border-color: #4D52C6;
@@ -2279,8 +2279,7 @@ textarea {
   
   .hero-section101 {
     width: 100vw;
-    max-width: 430px;
-    min-height: 10vh;
+    min-height: 50vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -2297,33 +2296,30 @@ textarea {
   align-items: center;
   flex-direction: column;
   margin-left: -40px;
+  max-width: 1000px;
 }
 
 .hero-content101 h1 {
-    font-size: 18.34px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 20.43px;
+    line-height: 30.43px;
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
 }
 
 .hero-content101 p {
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  letter-spacing: 0.08px;
+  line-height: 18px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
-  width: 440px;
 }
 
 .form-container {
     background: #4D52C6;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
     width: 98%;
@@ -2335,7 +2331,7 @@ textarea {
   .form-container h2 {
     text-align: center;
     color: white;
-    font-size: 17.45px;
+    font-size: 32px;
     margin-bottom: 30px;
   }
   
@@ -2346,16 +2342,16 @@ textarea {
   
   .label1 {
     color: white;
-    font-size: 7.85px !important;
-    margin-bottom: 5px;
+    font-size: 15px !important;
+    margin-bottom: 10px;
     margin-top: 10px;
   }
   
   label {
     color: white;
-    font-size: 7.85px !important;
-    margin-bottom: 5px;
-    margin-top: 5px !important;
+    font-size: 15px !important;
+    margin-bottom: 10px;
+    margin-top: 10px !important;
   }
   
   span {
@@ -2370,7 +2366,7 @@ textarea {
     border-radius: 5px;
     border: none;
     margin-bottom: 5px !important;
-    font-size: 7.85px !important;
+    font-size: 15px !important;
   }
   
   textarea {
@@ -2387,7 +2383,7 @@ textarea {
     border: none;
     margin-top: 20px;
     border-radius: 5px;
-    font-size: 10px !important;
+    font-size: 20px !important;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -2397,27 +2393,29 @@ textarea {
     margin: 50px auto;
     align-items: center;
     justify-content: center;
+    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    text-align: left;
+    text-align: left !important;
     margin: 0;
     padding: 30px;
     width: 100%;
   }
   
   .banner h2 {
-    font-size: 18px;
+    font-size: 32px;
     font-weight: bold;
     color: #FFFFFF;
     margin: 0;
   }
   
   .banner p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 10px 0;
     color: #D7D7D7;
   }
@@ -2427,13 +2425,14 @@ textarea {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 13.06px;
-    width: 110.76px;
-    height: 40.38px;
+    font-size: 18.06px;
+    width: 170.76px;
+    height: 60.38px;
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
     display: inline-block;
+
   }
   
 }
