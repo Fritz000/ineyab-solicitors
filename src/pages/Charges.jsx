@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import emailjs from '@emailjs/browser';
 import charges from "../assets/charges.png";
 import "../pages/Charges.css";
 import { CircleCheckBig } from "lucide-react";
@@ -8,6 +9,38 @@ import Frame10000039999 from "../assets/Frame10000039999.png";
 import IMG_7701 from "../assets/IMG_7701.png";
 
 const Charges = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');  // ✅ Added phone state
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = 'service_0q7zene';
+    const templateId = 'template_5bpvo1s';
+    const publicKey = 'q-xTln6g1-8XA-6Ln';
+
+    const templateParams = {
+      from_name: name,
+      from_phone: phone,  // ✅ Now it has a valid state
+      from_email: email,
+      to_name: 'Ineyab Solicitors',
+      message: message,
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response);
+        setName('');
+        setEmail('');
+        setPhone('');  // ✅ Reset phone input after submission
+        setMessage('');
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+  };
   return (
     <div className='first10'>
     <div
@@ -261,24 +294,27 @@ const Charges = () => {
           
               <div className="form-container">
                 <h2>Request A Free Consultation</h2>
-                <form>
+                <form onSubmit={handleSubmit}>
                   <label className='label1' htmlFor="name">
                     First and Last Name <span>*</span>
                   </label>
-                  <input type="text" id="name" placeholder="Enter first and last name" required />
+                  <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter first and last name" required />
           
                   <label htmlFor="email">
                     Email Address <span>*</span>
                   </label>
-                  <input type="email" id="email" placeholder="Enter email address" required />
+                  <input type="email" id="email" name="email" value={email}
+        onChange={(e) => setEmail(e.target.value)} placeholder="Enter email address" required />
           
-                  <label htmlFor="phone">Phone</label>
-                  <input type="tel" id="phone" placeholder="Enter phone number" />
+                  <label htmlFor="phone">Phone</label> 
+                  <input type="tel" id="phone" name="phone" value={phone}
+        onChange={(e) => setPhone(e.target.value)} placeholder="Enter phone number" />
           
                   <label htmlFor="message">
                     Message <span>*</span>
                   </label>
-                  <textarea id="message" placeholder="Enter your messages" required></textarea>
+                  <textarea id="message" name="message" value={message}
+        onChange={(e) => setMessage(e.target.value)} placeholder="Enter your messages" required></textarea>
           
                   <button className="submit1" type="submit">
                     Submit
