@@ -313,24 +313,8 @@ body, html {
   }
   
   .charges {
-      width: 100vw;
-      min-height: 50vh ;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      color: white;
-      padding: 50px 20px;
-      margin: 0 auto;
-    
-  }
-  
-  .charges-content {
-    width: 100vw;
-    min-height: 50vh ;
+    width: 100%;
+    min-height: 65vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -340,18 +324,34 @@ body, html {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 10px 5px;
     margin: 0 auto;
-    max-width: 1200px;
-  }
+  
+}
+
+.charges-content {
+  width: 100vw;
+  min-height: 65vh ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
   
     .charges-content h1 {
       font-size: 28px;
     font-weight: 800;
     margin-bottom: 10px;
     line-height: 34px;
-    margin-top: 50px;
-    margin-left: -30px;
+    margin-top: 0;
     }
     
     .charges-content p {
@@ -363,14 +363,13 @@ body, html {
       color: #DDDAD9;
       margin-top: 0.5rem;
       margin-bottom: 2rem;
-      margin-left: -30px;
     }
 
     .legal-fees-section {
       display: block;
       align-items: left;
       background: white;
-      padding: 30px;
+      padding: 10px;
     }
     
     .legal-fees-container {
@@ -380,28 +379,28 @@ body, html {
       gap: 100px;
       max-width: 1200px;
       background: #ffffff;
-      padding: 50px;
+      padding: 40px;
     }
     
     .legal-fees-image{
-      transform: translateX(-10%);
-      margin-bottom: 120px;
+      transform: translateX(-5%);
+      margin-bottom: 130px;
     }
     
     .legal-fees-image img {
-      width: 100%;
-      max-width: 350px;
+      width: 346px;
+      height: 259.23px;
       border-radius: 12px;
     }
     
     .legal-fees-content {
       display: flex;
-      transform: translateX(-135%);
+      transform: translateX(-127%);
       padding-top: 50px;
     }
     
     .legal-fees-content h2 {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: bold;
       text-align: center;
       margin-bottom: 15px;
@@ -440,15 +439,16 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 15px;
-      color: #555;
-      line-height: 1.4;
+      font-size: 14px;
+      color: #737373;
+      line-height: 30px;
       margin-top: -30px;
-      margin-bottom: 10px;
-      padding-left: 5px;
-      padding-right: 5px;
+      margin-bottom: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: 'Open sans', sans-serif;
   }
-  
+
 
     .pricing-section{
       background-color: #fff;
@@ -565,7 +565,7 @@ body, html {
   
     .iconos {
       color: green;
-      margin-right: 5px;
+      margin-right: 10px;
       flex: none;
       width: 20px;
       height: 20px;

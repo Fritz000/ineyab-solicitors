@@ -510,7 +510,7 @@ textarea {
   }
   
   .services120-container {
-    width: 100vw;
+    width: 100%;
     min-height: 65vh;
     background-size: cover;
     background-position: center;
@@ -521,9 +521,9 @@ textarea {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 10px 20px;
     margin: 0 auto;
-  }
+}
 
 .services120-content h1 {
     font-size: 28px;
@@ -555,7 +555,7 @@ textarea {
     
     .ourservice1{
       color: #4d52c6;
-      font-size: 17px;
+      font-size: 28px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -654,14 +654,16 @@ textarea {
   }
 
   .hero-section103 {
-    min-height: 10vh;
+    width: 100vw;
+    max-width: 430px;
+    min-height: 50vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 10px 5px;
+    padding: 1px 5px;
     margin-bottom: 50px;
 }
 
@@ -670,34 +672,32 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: -80px;
+  margin-left: -100px;
 }
 
 .hero-content103 h1 {
-  font-size: 20.34px;
-    font-weight: 700;
-    line-height: 20.43px;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20.43px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
 }
 
 .hero-content103 p {
-  font-size: 9px;
+  font-size: 7px;
   font-weight: 400;
-  line-height: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  line-height: 12px;
   letter-spacing: 0.08px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
-  width: 440px;
+  width: 375px;
 }
 
 .form-container103 {
   background: #4D52C6;
-  padding: 30px;
+  padding: 15px;
   border-radius: 5px;
   max-width: 1200px !important;
   width: 98%;
@@ -797,24 +797,24 @@ textarea {
   .footer-col1{
     width: 100%;
     text-align: left;
-    margin-top: -160px;
+    margin-top: -95px;
     margin-bottom: 30px;
     padding: 0;
-    margin-left: 150px;
+    margin-left: 165px;
   }
   
   .footer-col2{
     width: 100%;
-    margin-top: -50px;
+    margin-top: -30px;
     margin-bottom: 30px;
     padding: 0;
-    margin-left: 150px;
+    margin-left: 165px;
     text-align: left;
   }
   
   .footer-col3{
     width: 100%;
-    margin-top: -180px;
+    margin-top: -150px;
     margin-bottom: 30px;
     padding: 0;
     text-align: left;
@@ -823,11 +823,13 @@ textarea {
   .footer-col h4 {
     text-align: left;
     font-size: 9.7px;
+    margin-bottom: 10px;
   }
   
   .footer-col1 h4 {
     text-align: left;
     font-size: 9.7px;
+    margin-bottom: 15px;
   }
   .footer-col2 h4 {
     text-align: right;
@@ -840,64 +842,63 @@ textarea {
   
   .footer-col ul li a {
     font-size: 9.7px;
-    text-transform: capitalize;
     color: #F4F4F4;
     text-decoration: none;
     font-weight: 700;
     line-height: 24px;
+    margin-top: -8px;
     display: block;
     transition: all 0.3s ease;
-    white-space: normal;
+    white-space: normal; /* Allow wrapping */
+    overflow: hidden; /* Optional, if needed */
     word-wrap: break-word;
-    overflow: hidden;
     font-family: 'Open Sans', sans-serif;
-    text-overflow: ellipsis;
-  }
+}
   
   .footer-col1 ul li a {
     font-size: 9.7px;
-    text-transform: capitalize;
     color: #F4F4F4;
     text-decoration: none;
     font-weight: 700;
     line-height: 24px;
     display: block;
+    margin-top: -8px;
     transition: all 0.3s ease;
     white-space: normal;
-    word-wrap: break-word;
     overflow: hidden;
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     text-overflow: ellipsis;
   }
   
   .footer-col2 ul li a {
     font-size: 9.7px;
-    text-transform: capitalize;
     color: #F4F4F4;
     text-decoration: none;
     font-weight: 700;
     line-height: 24px;
+    margin-top: -8px;
     display: block;
     transition: all 0.3s ease;
     white-space: normal;
-    word-wrap: break-word;
     overflow: hidden;
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     text-overflow: ellipsis;
   }
   
   .footer-col3 ul li a {
     font-size: 9.7px;
-    text-transform: capitalize;
     color: #F4F4F4;
     text-decoration: none;
     font-weight: 700;
     line-height: 24px;
+    margin-top: -8px;
     display: block;
     transition: all 0.3s ease;
-    white-space: normal;
-    word-wrap: break-word;
+    white-space: break-word;
     overflow: hidden;
+    word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     text-overflow: ellipsis;
   }

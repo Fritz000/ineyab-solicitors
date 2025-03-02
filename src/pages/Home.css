@@ -2460,7 +2460,7 @@ textarea {
   
   .hero-section {
     width: 100%;
-    height: 550px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2484,7 +2484,7 @@ textarea {
     }
     
     .hero-section p {
-      font-size: 14px;
+      font-size: 12px;
       font-family: 'Open sans', sans-serif;
       font-weight: 700;
       line-height: 30px;
@@ -2568,7 +2568,7 @@ textarea {
     
     .cta-buttons {
       transform: translateX(-10%);
-      transform: translateY(-20%);
+      transform: translateY(-40%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -2597,13 +2597,13 @@ textarea {
       font-size: 12px;
       cursor: pointer;
     }
-    
+
     .stats-section {
+      display: none;
       width: 96%; 
       max-width: 1044px;
       height: 47.08px;
       margin: 0 auto;
-      display: flex;
       transform: translateX(1%);
       transform: translateY(-35%);
       justify-content: space-around;
@@ -2620,7 +2620,7 @@ textarea {
   
   .stat-item:first-child {
       justify-content: flex-start;
-      margin-left: 10px;
+      margin-left: 40px;
   }
   
   .stat-item:nth-child(2) {
@@ -2642,8 +2642,9 @@ textarea {
   
     .stat-text{
       text-align: center;
-      margin-top: -15px;
-      margin-left: 10px;
+      margin-top: -25px;
+      margin-left: 25px;
+      
     }
     
     .stat-item h3 {
@@ -2651,13 +2652,14 @@ textarea {
       color: #000;
       font-weight: bold;
       text-align: left;
+
     }
     
   .stat-item p {
       font-size: 6.66px;
       color: #737373;
       font-weight: bold;
-      margin-top: -5px;
+      margin-top: -10px;
     }
   
     .hero-section106 {
@@ -2707,13 +2709,13 @@ textarea {
       max-width: 1300px;
       min-width: 375px;
       padding: 0;
-      margin-left: -10.5px;
+      margin-left: 30px;
     }
     
     .service-card {
-      width: 354px !important;
+      width: 280px !important;
       flex-grow: 1;
-      max-width: 400px;
+      border: 2px solid #5E63CC;
       margin-bottom: 30px;
     }
     
@@ -2724,23 +2726,23 @@ textarea {
     }
     
     .user2 {
-        width: 103.45px; 
-        height: 103.45px;
+        width: 60.45px; 
+        height: 60.45px;
         border-radius: 50%;
+        border: 1px gray;
         margin: 0 auto 15px;
         background: white;
         color: #1d4ed8;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       }
       
       
     .service-icon {
         color: #1d4ed8;
-        width: 82.07px;
-        height: 82.07px;
+        width: 50.07px;
+        height: 50.07px;
         margin-top: 10px;
     }
   
@@ -2767,14 +2769,14 @@ textarea {
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 10px 0;
+      padding: 5px 0;
   }
 
   .who h1{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     color: #4d52c6;
-    margin-top: -100px;
+    margin-top: -190px;
 }
 
 .who p {
@@ -2782,18 +2784,17 @@ textarea {
   line-height: 15px;
   letter-spacing: 0.2px;
   color: #939393;
-  margin-top: -10px;
   text-align: center;
   width: 343px;
+  margin-top: -10px;
 }
 
-  
   .legal-trust-container {
       display: flex; 
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 40px 0;
+      padding: 1px 0;
       width: 100%;
       text-align: center;
   }
@@ -2812,7 +2813,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 24px;
+    font-size: 28px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -2879,7 +2880,7 @@ textarea {
   
     .service00{
       display: block;
-      padding: 5px 0;
+      padding: 40px 0;
       text-align: center;
       width: 100%;
       background-color: #f8f9fc;
@@ -2888,7 +2889,7 @@ textarea {
     
     .OurServices{
       color: #4d52c6;
-      font-size: 17px;
+      font-size: 28px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -2909,7 +2910,6 @@ textarea {
       align-items: center;
       justify-content: center;
       gap: 15px;
-      margin-bottom: 30px;
     }
     
     .primary-btn1 {
@@ -2980,7 +2980,7 @@ textarea {
       width: 100%;
       height: 30px !important;
       border-radius: 30px;
-      font-size: 20px;
+      font-size: 12px !important;
       cursor: pointer;
       color: #4d52c6;
       border-color: #4D52C6;
@@ -2990,7 +2990,7 @@ textarea {
   .hero-section101 {
     width: 100vw;
     max-width: 430px;
-    min-height: 10vh;
+    min-height: 50vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -3010,7 +3010,7 @@ textarea {
 }
 
 .hero-content101 h1 {
-    font-size: 18.34px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 20.43px;
     margin-bottom: 10px;
@@ -3019,21 +3019,19 @@ textarea {
 }
 
 .hero-content101 p {
-  font-size: 9px;
+  font-size: 7px;
   font-weight: 400;
-  line-height: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  line-height: 12px;
   letter-spacing: 0.08px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
-  width: 440px;
+  width: 375px;
 }
 
 .form-container {
     background: #4D52C6;
-    padding: 30px;
+    padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
     width: 98%;
@@ -3107,13 +3105,15 @@ textarea {
     margin: 50px auto;
     align-items: center;
     justify-content: center;
+    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
   }
   
   .banner-content {
-    text-align: left;
+    text-align: center !important;
     margin: 0;
     padding: 30px;
     width: 100%;
