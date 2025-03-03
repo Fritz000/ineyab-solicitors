@@ -1958,9 +1958,7 @@ textarea {
       min-width: 100vw;
       height: 903px;
       background: #4D52C6;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: calc(5% + 300px) calc(5% - 50px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -2392,6 +2390,10 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /4;
     justify-content: center;
     object-position: center;
     object-fit: cover;
@@ -2666,9 +2668,7 @@ textarea {
       min-width: 100vw;
       height: 903px;
       background: #4D52C6;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: calc(5% + 1px) calc(5% - 350px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -3103,6 +3103,10 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /7;
     justify-content: center;
     object-position: center;
     object-fit: cover;
@@ -3376,9 +3380,7 @@ textarea {
       min-width: 100vw;
       height: 903px;
       background: #4D52C6;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: calc(15% + 100px) calc(5% - 150px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -3813,9 +3815,11 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /7;
     justify-content: center;
-    object-position: center;
-    object-fit: cover;
     border-radius: 15px;
     min-height: 50px;
     overflow: hidden;
@@ -3823,7 +3827,8 @@ textarea {
   
   .banner-content {
     text-align: center !important;
-    margin: 0;
+    justify-content: center;
+    margin: 0 auto;
     padding: 30px;
     width: 100%;
   }
@@ -3851,8 +3856,10 @@ textarea {
     height: 40.38px;
     border-radius: 58.21px;
     text-align: center;
-    margin: 10px 0;
-    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
   }
   
 }
@@ -4525,6 +4532,10 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /7;
     justify-content: center;
     object-position: center;
     object-fit: cover;
@@ -5512,9 +5523,7 @@ textarea {
       min-width: 100vw;
       height: 903px;
       background: #4D52C6;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: calc(25% + 5px) calc(75% - 390px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -5560,7 +5569,7 @@ textarea {
     .service-card {
       width: 290px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 5px solid #5E63CC;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -5948,6 +5957,10 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /7;
     justify-content: center;
     object-position: center;
     object-fit: cover;
@@ -6657,6 +6670,10 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /7;
     justify-content: center;
     object-position: center;
     object-fit: cover;
