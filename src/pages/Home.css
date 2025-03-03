@@ -2714,7 +2714,7 @@ textarea {
     .service-card {
       width: 280px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 5px solid #5E63CC;
       margin-bottom: 30px;
     }
     
@@ -3426,7 +3426,7 @@ textarea {
     .service-card {
       width: 280px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 5px solid #5E63CC;
       margin-bottom: 30px;
     }
     
@@ -4093,9 +4093,7 @@ textarea {
       min-width: 100vw;
       height: 903px;
       background: #4D52C6;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: calc(5% + 1px) calc(5% - 350px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -4141,7 +4139,7 @@ textarea {
     .service-card {
       width: 300px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 5px solid #5E63CC;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -6282,7 +6280,7 @@ textarea {
     .service-card {
       width: 290px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 5px solid #5E63CC;
       max-width: 400px;
       margin-bottom: 30px;
     }
