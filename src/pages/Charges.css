@@ -785,7 +785,8 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 14px;
+      font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -1134,6 +1135,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -1482,6 +1484,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -1830,6 +1833,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -2178,6 +2182,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size:10px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -2526,6 +2531,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 9px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
