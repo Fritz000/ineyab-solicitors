@@ -59,7 +59,7 @@ const Contact = () => {
       <section className="contact-container100">
       <div className="contact-card">
         <div className="icon-title">
-        <MapPin className='phone' color="#4d52c6" />
+        <MapPin className='phone' color="#790aa4" />
         <h3>Address</h3>
         </div>
         <p>Capital House, 1st Floor </p><p className='fourty'>47 Rushey Green, Catford, London, SE6 4AS</p>
@@ -67,7 +67,7 @@ const Contact = () => {
 
       <div className="contact-card">
         <div className="icon-title">
-        <Phone className='phone' color="#4d52c6" />
+        <Phone className='phone' color="#790aa4" />
         <h3>Phone number</h3>
         </div>
         <p className='numbers'>
@@ -77,7 +77,7 @@ const Contact = () => {
 
       <div className="contact-card">
         <div className="icon-title">
-        <Mail className='phone' color="#4d52c6" />
+        <Mail className='phone' color="#790aa4" />
         <h3>Email</h3>
         </div>
         <p className='email'>info@ineyabsolicitors.com</p>

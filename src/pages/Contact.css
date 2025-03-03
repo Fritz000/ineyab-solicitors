@@ -1282,7 +1282,7 @@ body, html {
   
   .contact20-container {
     width: 100vw;
-    min-height: 65vh ;
+    min-height: 60vh ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1292,13 +1292,13 @@ body, html {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 50px 5px;
     margin: 0 auto;
   }
 
   .contact-container {
     width: 100vw;
-  min-height: 65vh ;
+  min-height: 70vh ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

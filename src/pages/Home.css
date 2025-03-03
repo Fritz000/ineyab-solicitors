@@ -133,7 +133,7 @@ body, html {
   }
 
   .primary-btn12 {
-    background-color: #4D52C6;
+    background-color: #790aa4;
     color: white;
     border-radius: 50px;
     width: 208.76px;
@@ -192,7 +192,7 @@ body, html {
   
   .stat-icon {
     font-size: 5rem;
-    color: #4d52c6;
+    color: #790aa4;
     padding: 2px;
     width: 77.09px;
     height: 77.09px;
@@ -222,7 +222,7 @@ body, html {
     width: 100%;
     min-width: 100vw;
     height: 500px;
-    background: #4D52C6;
+    background: #790aa4;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,10 +255,10 @@ body, html {
     }
     
     .service-card {
-      background: #4d52c6;
+      background: #790aa4;
       padding: 40px 20px;
       border-radius: 20px;
-      border: 2px solid #5E63CC;
+      border: 2px solid #8622AD;
       flex: 1;
       text-align: center;
       max-width: 400px;
@@ -318,7 +318,7 @@ body, html {
   .who h1{
       font-size: 50px;
       font-weight: 700;
-      color: #4d52c6;
+      color: #790aa4;
       margin-top: 10px;
   }
   
@@ -382,7 +382,7 @@ body, html {
   }
   
   .primary-btn {
-    background-color: #4d52c6;
+    background-color: #790aa4;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -395,8 +395,8 @@ body, html {
   
   .secondary-btn {
     background-color: transparent;
-    color: #4d52c6;
-    border: 2px solid #4d52c6;
+    color: #790aa4;
+    border: 2px solid #790aa4;
     padding: 10px 18px;
     font-size: 22.02px;
     border-radius: 80px;
@@ -414,7 +414,7 @@ body, html {
   }
   
   .OurServices{
-    color: #4d52c6;
+    color: #790aa4;
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -435,7 +435,7 @@ body, html {
   }
   
   .primary-btn1 {
-    background-color: #4d52c6;
+    background-color: #790aa4;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -448,8 +448,8 @@ body, html {
   
   .secondary-btn1 {
     background-color: transparent;
-    color: #4d52c6;
-    border: 2px solid #4d52c6;
+    color: #790aa4;
+    border: 2px solid #790aa4;
     padding: 10px 18px;
     font-size: 22.02px;
 
@@ -521,8 +521,8 @@ body, html {
     border-radius: 30px;
     font-size: 20px;
     cursor: pointer;
-    color: #4d52c6;
-    border-color: #4D52C6;
+    color: #790aa4;
+    border-color: #790aa4;
     background-color: #fff;
 }
 
@@ -560,7 +560,7 @@ body, html {
 }
 
 .form-container {
-  background: #6464c8;
+  background: #8928AF;
   padding: 30px;
   border-radius: 10px;
   max-width: 850px;
@@ -623,7 +623,7 @@ textarea {
   height: 70px;
   padding: 12px;
   background: white;
-  color: #6464c8;
+  color: #8928AF;
   border: none;
   margin-top: 20px;
   border-radius: 5px;
@@ -1043,7 +1043,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 110.76px;
@@ -1087,7 +1087,7 @@ textarea {
     .stat-icon {
       display: block;  
       font-size: 5rem;
-      color: #4d52c6;
+      color: #790aa4;
       padding: 2px;
       width: 110.77px; 
       height: 40.83px;
@@ -1116,7 +1116,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 700px;
-      background: #4D52C6;
+      background: #790aa4;
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -1224,7 +1224,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: 0px;
 }
 
@@ -1300,7 +1300,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 110.76px;
@@ -1312,8 +1312,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 130.76px;
       height: 60.38px;
@@ -1331,7 +1331,7 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
+      color: #790aa4;
       font-size: 17px;
       margin-left: 1.5px;
       margin-right: 1.5px;
@@ -1356,7 +1356,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 110.76px;
@@ -1368,8 +1368,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 130.76px;
       height: 60.38px;
@@ -1439,8 +1439,8 @@ textarea {
       border-radius: 30px;
       font-size: 20px;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -1485,7 +1485,7 @@ textarea {
 }
 
 .form-container {
-    background: #6464c8;
+    background: #8928AF;
     padding: 30px;
     border-radius: 10px;
     max-width: 1050px;
@@ -1546,7 +1546,7 @@ textarea {
     height: 70px;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -1868,7 +1868,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 205px;
@@ -1924,7 +1924,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -1957,7 +1957,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-position: calc(5% + 300px) calc(5% - 50px);
       display: flex;
       flex-direction: column;
@@ -2004,7 +2004,7 @@ textarea {
     .service-card {
       width: 400px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 2px solid #8622AD;
       margin-bottom: 30px;
     }
     
@@ -2064,7 +2064,7 @@ textarea {
   .who h1{
     font-size: 32px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: -190px;
 }
 
@@ -2145,7 +2145,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 205px;
@@ -2157,8 +2157,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 205px;
       height: 66px;
@@ -2176,7 +2176,7 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
+      color: #790aa4;
       font-size: 32px;
       margin-left: 1.5px;
       margin-right: 1.5px;
@@ -2201,7 +2201,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 205px;
@@ -2213,8 +2213,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 205px;
       height: 66px;
@@ -2270,8 +2270,8 @@ textarea {
       border-radius: 30px;
       font-size: 18px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -2316,7 +2316,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -2377,7 +2377,7 @@ textarea {
     height: 50px !important;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -2413,6 +2413,7 @@ textarea {
     font-size: 32px;
     font-weight: bold;
     color: #FFFFFF;
+    text-align: center;
     margin: 0;
   }
   
@@ -2420,6 +2421,7 @@ textarea {
     font-size: 18px;
     margin: 10px 0;
     color: #D7D7D7;
+    text-align: center;
   }
   
   .blot105 {
@@ -2428,12 +2430,13 @@ textarea {
     border: none;
     padding: 10px 20px;
     font-size: 18.06px;
-    width: 170.76px;
+    width: 200.76px;
     height: 60.38px;
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
     display: inline-block;
+    transform: translateX(120%);
 
   }
   
@@ -2578,7 +2581,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -2634,7 +2637,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -2667,7 +2670,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-position: calc(5% + 1px) calc(5% - 350px);
       display: flex;
       flex-direction: column;
@@ -2714,7 +2717,7 @@ textarea {
     .service-card {
       width: 280px !important;
       flex-grow: 1;
-      border: 5px solid #5E63CC;
+      border: 5px solid #8622AD;
       margin-bottom: 30px;
     }
     
@@ -2774,7 +2777,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: -190px;
 }
 
@@ -2848,7 +2851,6 @@ textarea {
 }
 
 .trust-image img {
-    width: 100%;
     width: 346px;
     height: 259.23px;
     border-radius: 8px;
@@ -2856,7 +2858,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -2868,8 +2870,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -2887,8 +2889,8 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
-      font-size: 28px;
+      color: #4a4c8a;
+      font-size: 18px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -2912,7 +2914,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -2924,8 +2926,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -2981,8 +2983,8 @@ textarea {
       border-radius: 30px;
       font-size: 12px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -3029,7 +3031,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -3090,7 +3092,7 @@ textarea {
     height: 50px !important;
     padding: 15px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -3127,12 +3129,14 @@ textarea {
     font-weight: bold;
     color: #FFFFFF;
     margin: 0;
+    text-align: center;
   }
   
   .banner p {
     font-size: 15px;
     margin: 10px 0;
     color: #D7D7D7;
+    text-align: center;
   }
   
   .blot105 {
@@ -3146,6 +3150,7 @@ textarea {
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
+    transform: translateX(90%);
     display: inline-block;
   }
   
@@ -3290,7 +3295,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -3346,7 +3351,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -3379,7 +3384,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-position: calc(15% + 100px) calc(5% - 150px);
       display: flex;
       flex-direction: column;
@@ -3426,7 +3431,7 @@ textarea {
     .service-card {
       width: 280px !important;
       flex-grow: 1;
-      border: 5px solid #5E63CC;
+      border: 5px solid #8622AD;
       margin-bottom: 30px;
     }
     
@@ -3486,7 +3491,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: -90px;
 }
 
@@ -3568,7 +3573,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -3580,8 +3585,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -3599,8 +3604,8 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
-      font-size: 28px;
+      color: #4a4c8a;
+      font-size: 18px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -3624,7 +3629,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -3636,8 +3641,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -3693,8 +3698,8 @@ textarea {
       border-radius: 30px;
       font-size: 12px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -3741,7 +3746,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -3802,7 +3807,7 @@ textarea {
     height: 50px !important;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -3838,12 +3843,14 @@ textarea {
     font-weight: bold;
     color: #FFFFFF;
     margin: 0;
+    text-align: center;
   }
   
   .banner p {
     font-size: 15px;
     margin: 10px 0;
     color: #D7D7D7;
+    text-align: center;
   }
   
   .blot105 {
@@ -3859,6 +3866,7 @@ textarea {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    transform: translateX(90%);
     display: block;
   }
   
@@ -4003,7 +4011,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -4059,7 +4067,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -4092,7 +4100,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-position: calc(5% + 1px) calc(5% - 350px);
       display: flex;
       flex-direction: column;
@@ -4139,7 +4147,7 @@ textarea {
     .service-card {
       width: 300px !important;
       flex-grow: 1;
-      border: 5px solid #5E63CC;
+      border: 5px solid #8622AD;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -4200,7 +4208,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: 0px;
 }
 
@@ -4282,7 +4290,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -4294,8 +4302,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -4313,8 +4321,8 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
-      font-size: 28px;
+      color: #790aa4;
+      font-size: 17px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -4339,7 +4347,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -4351,8 +4359,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -4408,8 +4416,8 @@ textarea {
       border-radius: 30px;
       font-size: 12px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -4456,7 +4464,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -4517,7 +4525,7 @@ textarea {
     height: 50px !important;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -4551,6 +4559,7 @@ textarea {
   
   .banner h2 {
     font-size: 18px;
+    text-align: center;
     font-weight: bold;
     color: #FFFFFF;
     margin: 0;
@@ -4558,6 +4567,7 @@ textarea {
   
   .banner p {
     font-size: 15px;
+    text-align: center;
     margin: 10px 0;
     color: #D7D7D7;
   }
@@ -4573,6 +4583,7 @@ textarea {
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
+    transform: translateX(80%);
     display: inline-block;
   }
   
@@ -4717,7 +4728,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -4773,7 +4784,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -4806,7 +4817,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-position: calc(5% + 1px) calc(5% - 350px);
       display: flex;
       flex-direction: column;
@@ -4853,7 +4864,7 @@ textarea {
     .service-card {
       width: 300px !important;
       flex-grow: 1;
-      border: 5px solid #5E63CC;
+      border: 5px solid #8622AD;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -4914,7 +4925,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: 0px;
 }
 
@@ -4996,7 +5007,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -5008,8 +5019,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -5027,8 +5038,8 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
-      font-size: 28px;
+      color: #790aa4;
+      font-size: 17px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -5053,7 +5064,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -5065,8 +5076,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -5122,8 +5133,8 @@ textarea {
       border-radius: 30px;
       font-size: 12px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -5170,7 +5181,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -5231,7 +5242,7 @@ textarea {
     height: 50px !important;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -5257,7 +5268,6 @@ textarea {
   }
   
   .banner-content {
-    text-align: center !important;
     margin: 0;
     padding: 30px;
     width: 100%;
@@ -5267,12 +5277,14 @@ textarea {
     font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
+    text-align: center;
     margin: 0;
   }
   
   .banner p {
     font-size: 15px;
     margin: 10px 0;
+    text-align: center;
     color: #D7D7D7;
   }
   
@@ -5286,8 +5298,9 @@ textarea {
     height: 40.38px;
     border-radius: 58.21px;
     text-align: center;
-    margin: 10px 0;
-    display: inline-block;
+    margin: 0 auto;
+    transform: translateX(90%);
+    display: flex;
   }
   
 }
@@ -5431,7 +5444,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -5487,7 +5500,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -5520,7 +5533,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-position: calc(25% + 5px) calc(75% - 390px);
       display: flex;
       flex-direction: column;
@@ -5567,7 +5580,7 @@ textarea {
     .service-card {
       width: 290px !important;
       flex-grow: 1;
-      border: 5px solid #5E63CC;
+      border: 5px solid #8622AD;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -5628,7 +5641,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: 0px;
 }
 
@@ -5666,7 +5679,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 28px;
+    font-size: 22px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -5709,7 +5722,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -5721,8 +5734,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 145px;
       height: 36px;
@@ -5739,8 +5752,9 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
-      font-size: 28px;
+      color: #790aa4;
+      font-size: 16px;
+      max-width: 800px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -5764,7 +5778,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -5776,8 +5790,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 145px;
       height: 36px;
@@ -5815,7 +5829,7 @@ textarea {
   }
   
   .card-content h3 {
-      font-size: 25.02px;
+      font-size: 22.02px;
       margin-bottom: 12px;
       color: #000;
   }
@@ -5833,8 +5847,8 @@ textarea {
       border-radius: 30px;
       font-size: 12px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -5881,7 +5895,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -5942,7 +5956,7 @@ textarea {
     height: 50px !important;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -5977,6 +5991,7 @@ textarea {
   .banner h2 {
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
     color: #FFFFFF;
     margin: 0;
   }
@@ -5984,6 +5999,7 @@ textarea {
   .banner p {
     font-size: 15px;
     margin: 10px 0;
+    text-align: center;
     color: #D7D7D7;
   }
   
@@ -5998,6 +6014,7 @@ textarea {
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
+    transform: translateX(80%);
     display: inline-block;
   }
   
@@ -6142,7 +6159,7 @@ textarea {
     }
   
     .primary-btn12 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -6198,7 +6215,7 @@ textarea {
   }
     
     .stat-icon {
-      color: #4d52c6;
+      color: #790aa4;
       padding: 1px;
       margin-right: -20px;
       width: 30.48px;
@@ -6231,7 +6248,7 @@ textarea {
       width: 100%;
       min-width: 100vw;
       height: 903px;
-      background: #4D52C6;
+      background: #790aa4;
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -6280,7 +6297,7 @@ textarea {
     .service-card {
       width: 290px !important;
       flex-grow: 1;
-      border: 5px solid #5E63CC;
+      border: 5px solid #8622AD;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -6341,7 +6358,7 @@ textarea {
   .who h1{
     font-size: 28px;
     font-weight: 700;
-    color: #4d52c6;
+    color: #790aa4;
     margin-top: 0px;
 }
 
@@ -6379,7 +6396,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 28px;
+    font-size: 22px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -6422,7 +6439,7 @@ textarea {
 }
 
     .primary-btn {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -6434,8 +6451,8 @@ textarea {
     
     .secondary-btn {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 145px;
       height: 36px;
@@ -6452,8 +6469,9 @@ textarea {
     }
     
     .OurServices{
-      color: #4d52c6;
-      font-size: 25px;
+      color: #790aa4;
+      font-size: 16px;
+      max-width: 700px;
       margin-left: 1.5px;
       margin-right: 1.5px;
       font-weight: 700;
@@ -6477,7 +6495,7 @@ textarea {
     }
     
     .primary-btn1 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -6489,8 +6507,8 @@ textarea {
     
     .secondary-btn1 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 145px;
       height: 36px;
@@ -6528,7 +6546,7 @@ textarea {
   }
   
   .card-content h3 {
-      font-size: 25.02px;
+      font-size: 20px;
       margin-bottom: 12px;
       color: #000;
   }
@@ -6546,8 +6564,8 @@ textarea {
       border-radius: 30px;
       font-size: 12px !important;
       cursor: pointer;
-      color: #4d52c6;
-      border-color: #4D52C6;
+      color: #790aa4;
+      border-color: #790aa4;
       background-color: #fff;
   }
   
@@ -6594,7 +6612,7 @@ textarea {
 }
 
 .form-container {
-    background: #4D52C6;
+    background: #790aa4;
     padding: 15px;
     border-radius: 5px;
     max-width: 1200px !important;
@@ -6655,7 +6673,7 @@ textarea {
     height: 50px !important;
     padding: 12px;
     background: white;
-    color: #6464c8;
+    color: #8928AF;
     border: none;
     margin-top: 20px;
     border-radius: 5px;
@@ -6691,11 +6709,13 @@ textarea {
     font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
+    text-align: center;
     margin: 0;
   }
   
   .banner p {
     font-size: 15px;
+    text-align: center;
     margin: 10px 0;
     color: #D7D7D7;
   }
@@ -6711,6 +6731,7 @@ textarea {
     border-radius: 58.21px;
     text-align: center;
     margin: 10px 0;
+    transform: translateX(80%);
     display: inline-block;
   }
   

@@ -125,7 +125,7 @@ body, html {
 }
 
 .primary-btn100 {
-  background-color: #4d52c6;
+  background-color: #790aa4;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -138,8 +138,8 @@ body, html {
 
 .secondary-btn100 {
   background-color: transparent;
-    color: #4d52c6;
-    border: 2px solid #4d52c6;
+    color: #790aa4;
+    border: 2px solid #790aa4;
     padding: 10px 18px;
     font-size: 22px;
     border-radius: 50px;
@@ -258,7 +258,7 @@ body, html {
 }
 
 .highlight {
-  color: #4d52c6;
+  color: #790aa4;
   font-weight: bold;
 }
 
@@ -274,7 +274,7 @@ body, html {
 
 
 .pricing-btn {
-  background-color: #4d52c6;
+  background-color: #790aa4;
   color: white;
   border: none;
   padding: 14px;
@@ -413,7 +413,7 @@ body, html {
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 205px;
@@ -425,8 +425,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 205px;
       height: 66px;
@@ -558,7 +558,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -571,7 +571,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
@@ -731,7 +731,7 @@ body, html {
     
     .legal-fees-image{
       transform: translateX(-5%);
-      margin-bottom: 130px;
+      margin-bottom: 150px;
     }
     
     .legal-fees-image img {
@@ -747,21 +747,20 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      margin-bottom: 15px;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 20px;
     }
 
     .legal-fees-buttons {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      align-items: left;
       gap: 15px;
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -773,8 +772,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -848,7 +847,7 @@ body, html {
     .pricing-box1 p{
       font-family: "Open Sans", sans-serif;
       font-size: 15px;
-      line-height: 15px;
+      line-height: 13.5px;
       font-weight: 400;
       margin-top: 15px;
       margin-bottom: 20px;
@@ -859,7 +858,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       text-align: justify;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 10px;
       font-weight: 400;
       margin-bottom: 10px;
@@ -875,7 +874,7 @@ body, html {
     
     .pricing-box p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -893,7 +892,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      font-size: 15px;
+      font-size: 13.5px;
       font-weight: 400;
       margin-bottom: 10px;
       font-family: "Open Sans", sans-serif;
@@ -906,7 +905,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -919,7 +918,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
@@ -1095,9 +1094,9 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: left;
       margin-bottom: 15px;
     }
 
@@ -1109,7 +1108,7 @@ body, html {
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -1121,8 +1120,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -1195,7 +1194,7 @@ body, html {
     
     .pricing-box1 p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -1207,7 +1206,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       text-align: justify;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 10px;
       font-weight: 400;
       margin-bottom: 10px;
@@ -1223,7 +1222,7 @@ body, html {
     
     .pricing-box p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -1241,7 +1240,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      font-size: 15px;
+      font-size: 13.5px;
       font-weight: 400;
       margin-bottom: 10px;
       font-family: "Open Sans", sans-serif;
@@ -1254,7 +1253,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -1267,7 +1266,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
@@ -1443,9 +1442,9 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: left;
       margin-bottom: 15px;
     }
 
@@ -1457,7 +1456,7 @@ body, html {
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -1469,8 +1468,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -1543,7 +1542,7 @@ body, html {
     
     .pricing-box1 p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -1555,7 +1554,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       text-align: justify;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 10px;
       font-weight: 400;
       margin-bottom: 10px;
@@ -1571,7 +1570,7 @@ body, html {
     
     .pricing-box p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -1589,7 +1588,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      font-size: 15px;
+      font-size: 13.5px;
       font-weight: 400;
       margin-bottom: 10px;
       font-family: "Open Sans", sans-serif;
@@ -1602,7 +1601,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -1615,7 +1614,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
@@ -1791,9 +1790,9 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: left;
       margin-bottom: 15px;
     }
 
@@ -1805,7 +1804,7 @@ body, html {
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 175px;
@@ -1817,8 +1816,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 175px;
       height: 36px;
@@ -1891,7 +1890,7 @@ body, html {
     
     .pricing-box1 p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -1903,7 +1902,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       text-align: justify;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 10px;
       font-weight: 400;
       margin-bottom: 10px;
@@ -1919,7 +1918,7 @@ body, html {
     
     .pricing-box p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -1937,7 +1936,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      font-size: 15px;
+      font-size: 13.5px;
       font-weight: 400;
       margin-bottom: 10px;
       font-family: "Open Sans", sans-serif;
@@ -1950,7 +1949,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -1963,7 +1962,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
@@ -2053,7 +2052,7 @@ body, html {
   
   .charges {
     width: 100%;
-    min-height: 70vh;
+    min-height: 60vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2063,7 +2062,7 @@ body, html {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 10px 18px;
+    padding: 10px 5px;
     margin: 0 auto;
   
 }
@@ -2139,9 +2138,9 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: left;
       margin-bottom: 15px;
     }
 
@@ -2153,7 +2152,7 @@ body, html {
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -2165,8 +2164,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 145px;
       height: 36px;
@@ -2232,14 +2231,14 @@ body, html {
     
     .pricing-box1 h2{
       font-family: "Open Sans", sans-serif;
-      font-size: 25.02px;
+      font-size: 22.02px;
       line-height: 25px;
       letter-spacing: 0.2s;
     }
     
     .pricing-box1 p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -2251,7 +2250,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       text-align: justify;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 10px;
       font-weight: 400;
       margin-bottom: 10px;
@@ -2260,14 +2259,14 @@ body, html {
     
     .pricing-box h2{
       font-family: "Open Sans", sans-serif;
-      font-size: 25.02px;
+      font-size: 22.02px;
       line-height: 25px;
       letter-spacing: 0.2s;
     }
     
     .pricing-box p{
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 13.5px;
       line-height: 15px;
       font-weight: 400;
       margin-top: 15px;
@@ -2285,7 +2284,7 @@ body, html {
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      font-size: 15px;
+      font-size: 13.5px;
       font-weight: 400;
       margin-bottom: 10px;
       font-family: "Open Sans", sans-serif;
@@ -2298,7 +2297,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -2311,7 +2310,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
@@ -2487,9 +2486,9 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: left;
       margin-bottom: 15px;
     }
 
@@ -2501,7 +2500,7 @@ body, html {
     }
     
     .primary-btn100 {
-      background-color: #4D52C6;
+      background-color: #790aa4;
       color: white;
       border-radius: 50px;
       width: 145px;
@@ -2513,8 +2512,8 @@ body, html {
     
     .secondary-btn100 {
       background-color: transparent;
-      color: #4d52c6;
-      border: 2px solid #4d52c6;
+      color: #790aa4;
+      border: 2px solid #790aa4;
       border-radius: 50px;
       width: 145px;
       height: 36px;
@@ -2646,7 +2645,7 @@ body, html {
     }
     
     .highlight {
-      color: #4d52c6;
+      color: #790aa4;
       font-weight: bold;
     }
   
@@ -2659,7 +2658,7 @@ body, html {
     }
     
     .pricing-btn {
-      background-color: #4d52c6;
+      background-color: #790aa4;
       color: white;
       border: none;
       padding: 14px;
