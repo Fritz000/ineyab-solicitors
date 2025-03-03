@@ -4621,7 +4621,7 @@ textarea {
       line-height: 15px;
       font-weight: 100;
       color: #DDDAD9;
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       margin-bottom: 2rem;
     }
   
@@ -4699,7 +4699,7 @@ textarea {
     
     .cta-buttons {
       transform: translateX(-10%);
-      transform: translateY(-40%);
+      transform: translateY(-20%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -4798,9 +4798,7 @@ textarea {
       min-width: 100vw;
       height: 903px;
       background: #4D52C6;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: calc(5% + 1px) calc(5% - 350px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -4846,7 +4844,7 @@ textarea {
     .service-card {
       width: 300px !important;
       flex-grow: 1;
-      border: 2px solid #5E63CC;
+      border: 5px solid #5E63CC;
       max-width: 400px;
       margin-bottom: 30px;
     }
@@ -5123,7 +5121,7 @@ textarea {
   .hero-section101 {
     width: 100vw;
     max-width: 430px;
-    min-height: 100vh;
+    min-height: 50vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -5237,6 +5235,10 @@ textarea {
     width: calc(100% - 10px);
     margin: 50px auto;
     align-items: center;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 /7;
     justify-content: center;
     object-position: center;
     object-fit: cover;
@@ -5280,7 +5282,6 @@ textarea {
   }
   
 }
-
 
 @media (max-width: 375px){
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');

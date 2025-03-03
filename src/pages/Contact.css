@@ -1081,7 +1081,7 @@ body, html {
       justify-content: center;
       text-align: center;
       color: white;
-      padding: 50px 20px;
+      padding: 50px 5px;
       margin: 0 auto;
     }
 
@@ -1097,7 +1097,7 @@ body, html {
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 50px 30px;
+    padding: 50px 20px;
     margin: 0 auto;
     max-width: 1200px;
   }
