@@ -494,6 +494,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -522,6 +523,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -785,7 +787,8 @@ body, html {
       max-width: 1100px;
       width: 100%;
       text-align: left;
-      font-size: 14px;
+      font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -839,8 +842,9 @@ body, html {
     
     .pricing-box1 h2{
       font-family: "Open Sans", sans-serif;
-      font-size: 25.02px;
+      font-size: 25px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -867,7 +871,8 @@ body, html {
     
     .pricing-box h2{
       font-family: "Open Sans", sans-serif;
-      font-size: 25.02px;
+      font-size: 25px;
+      font-weight: 700;
       line-height: 25px;
       letter-spacing: 0.2s;
     }
@@ -1134,6 +1139,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -1189,6 +1195,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -1217,6 +1224,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -1482,6 +1490,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -1537,6 +1546,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -1565,6 +1575,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -1830,6 +1841,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 12px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -1885,6 +1897,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -1913,6 +1926,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 25.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -2178,6 +2192,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size:10px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -2233,6 +2248,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 22.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -2261,6 +2277,7 @@ body, html {
       font-family: "Open Sans", sans-serif;
       font-size: 22.02px;
       line-height: 25px;
+      font-weight: 700;
       letter-spacing: 0.2s;
     }
     
@@ -2526,6 +2543,7 @@ body, html {
       width: 100%;
       text-align: left;
       font-size: 9px;
+      font-weight: 600;
       color: #737373;
       line-height: 30px;
       margin-top: -30px;
@@ -2580,6 +2598,7 @@ body, html {
     .pricing-box1 h2{
       font-family: "Open Sans", sans-serif;
       font-size: 20px;
+      font-weight: 700;
       line-height: 25px;
       letter-spacing: 0.2s;
     }
@@ -2608,6 +2627,7 @@ body, html {
     .pricing-box h2{
       font-family: "Open Sans", sans-serif;
       font-size: 20px;
+      font-weight: 700;
       line-height: 25px;
       letter-spacing: 0.2s;
     }
