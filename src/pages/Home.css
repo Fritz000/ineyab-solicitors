@@ -489,6 +489,7 @@ body, html {
     border-radius: 10px;
     background-color: #FFFFFF;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .card img {
@@ -2485,7 +2486,7 @@ textarea {
       font-weight: 800;
       margin-bottom: 10px;
       line-height: 40px;
-      margin-top: 9rem
+      margin-top: 9.5rem
     }
     
     .hero-section p {
@@ -2573,7 +2574,7 @@ textarea {
     
     .cta-buttons {
       transform: translateX(-10%);
-      transform: translateY(-45%);
+      transform: translateY(-35%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -2818,7 +2819,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 28px;
+    font-size: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -3025,7 +3026,7 @@ textarea {
 }
 
 .hero-content101 p {
-  font-size: 7px;
+  font-size: 9px;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 0.08px;
@@ -3534,7 +3535,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 28px;
+    font-size: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -4253,7 +4254,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 28px;
+    font-size: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -4971,7 +4972,7 @@ textarea {
   }
 
   .trust-text h2 {
-    font-size: 28px;
+    font-size: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-weight: 700;
@@ -5007,7 +5008,7 @@ textarea {
 }
 
 .trust-image img {
-    width: 100%;
+    
     width: 346px;
     height: 259.23px;
     border-radius: 8px;

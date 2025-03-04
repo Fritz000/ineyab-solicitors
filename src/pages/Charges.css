@@ -57,11 +57,12 @@ body, html {
 }
 
 .charges-content p {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'open sans', sans-serif;
   font-weight: 400;
   line-height: 35px;
   margin-top: 20px;
+  color: #DDDAD9;
   text-align: center;
   word-wrap: break-word;
 }
@@ -105,6 +106,7 @@ body, html {
 .legal-fees-content h2 {
   font-size: 48px;
   font-weight: bold;
+  font-weight: 700;
   margin-bottom: 15px;
 }
 
@@ -118,7 +120,7 @@ body, html {
   max-width: 1100px;
   text-align: left;
   font-size: 20px;
-  color: #555;
+  color: #737373;
   line-height: 1.6;
   transform: translateX(1px);
   margin-top: 20px;
@@ -132,7 +134,7 @@ body, html {
     font-size: 22px;
     border-radius: 50px;
     cursor: pointer;
-    width: 223pxs;
+    width: 223px;
     height: 10vh;
 }
 
@@ -728,18 +730,18 @@ body, html {
       gap: 100px;
       max-width: 1200px;
       background: #ffffff;
-      padding: 40px;
+      padding: 55px;
     }
     
     .legal-fees-image{
       transform: translateX(-5%);
-      margin-bottom: 150px;
+      margin-bottom: 160px;
     }
     
     .legal-fees-image img {
       width: 346px;
       height: 259.23px;
-      border-radius: 12px;
+      border-radius: 8px;
     }
     
     .legal-fees-content {
@@ -749,7 +751,7 @@ body, html {
     }
     
     .legal-fees-content h2 {
-      font-size: 25px;
+      font-size: 28px;
       font-weight: 700;
       text-align: left;
       margin-bottom: 20px;
@@ -793,7 +795,7 @@ body, html {
       line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
-      padding-left: 10px;
+      padding-left: 35px;
       padding-right: 10px;
       font-family: 'Open sans', sans-serif;
   }
@@ -1078,7 +1080,7 @@ body, html {
       gap: 100px;
       max-width: 1200px;
       background: #ffffff;
-      padding: 40px;
+      padding: 55px;
     }
     
     .legal-fees-image{
@@ -1094,7 +1096,7 @@ body, html {
     
     .legal-fees-content {
       display: flex;
-      transform: translateX(-133%);
+      transform: translateX(-129%);
       padding-top: 50px;
     }
     
@@ -1144,7 +1146,7 @@ body, html {
       line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
-      padding-left: 10px;
+      padding-left: 30px;
       padding-right: 10px;
       font-family: 'Open sans', sans-serif;
   }
@@ -1429,7 +1431,7 @@ body, html {
       gap: 100px;
       max-width: 1200px;
       background: #ffffff;
-      padding: 40px;
+      padding: 50px;
     }
     
     .legal-fees-image{
@@ -1445,7 +1447,7 @@ body, html {
     
     .legal-fees-content {
       display: flex;
-      transform: translateX(-133%);
+      transform: translateX(-132%);
       padding-top: 50px;
     }
     
@@ -1495,7 +1497,7 @@ body, html {
       line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
-      padding-left: 10px;
+      padding-left: 20px;
       padding-right: 10px;
       font-family: 'Open sans', sans-serif;
   }
@@ -1780,7 +1782,7 @@ body, html {
       gap: 100px;
       max-width: 1200px;
       background: #ffffff;
-      padding: 40px;
+      padding: 50px;
     }
     
     .legal-fees-image{
@@ -1789,8 +1791,8 @@ body, html {
     }
     
     .legal-fees-image img {
-      width: 100%;
-      max-width: 350px;
+      width: 346px;
+    height: 259.23px;
       border-radius: 12px;
     }
     
@@ -1846,7 +1848,7 @@ body, html {
       line-height: 30px;
       margin-top: -30px;
       margin-bottom: 30px;
-      padding-left: 10px;
+      padding-left: 20px;
       padding-right: 10px;
       font-family: 'Open sans', sans-serif;
   }
