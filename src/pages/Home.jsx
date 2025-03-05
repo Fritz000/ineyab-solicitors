@@ -77,7 +77,7 @@ const Home = () => {
             <FaPhone className="icon2" />
             <div className="text">
             <h3>Mobile call</h3>
-            <p>Engage our experienc ed lawyers in resolving your legal problems</p>
+            <p>Engage our experience lawyers in resolving your legal problems</p>
             </div>
           </div>
           <div className="service-item">
@@ -178,8 +178,7 @@ const Home = () => {
         <div className="trust-text">
           <h2>Ineyab solicitors is trusted in the legal field</h2>
           <p>
-            Ineyab Solicitors is a leading law firm in the UK based,
-            South East London. We provide legal advice and representation at affordable rates. We offer a friendly, reliable and professional service which is  tailored to meeting the needs of our clients. We have developed innovative and creative ways to resolve our client's legal issues.
+            Ineyab Solicitors is a leading law firm based in South East London, United Kingdom. We provide legal advice and representation at affordable rates. We offer a friendly, reliable and professional service which is  tailored to meeting the needs of our clients. We have developed innovative and creative ways to resolve our client's legal issues.
           </p>
           <div className="trust-buttons">
             <button className="primary-btn"><Link to ="/Contact">Talk to Us</Link></button>
