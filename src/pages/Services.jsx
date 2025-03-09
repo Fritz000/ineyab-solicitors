@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import man from "../assets/man-making.png";
 import "../pages/Services.css";
-import { Link } from "react-router-dom";
 import Cover1 from "../assets/cover1.png";
 import Frame206 from "../assets/Frame206.png";
 import Frame205 from "../assets/Frame205.png";
