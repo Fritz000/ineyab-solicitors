@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
-import { Link, useNavigate } from "react-router-dom";
 import contactcover from "../assets/contactcover.png";
 import { MapPin, Phone, Mail } from "lucide-react";
 import "../pages/Contact.css";
