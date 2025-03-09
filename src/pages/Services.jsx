@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import man from "../assets/man-making.png";
 import "../pages/Services.css";
